@@ -10,7 +10,6 @@ Due to the modular way the items are placed only Normal Action Difficulty and No
 The Goal is to either kill God or kill all 5 bosses depending on your YAML settings. Key Items like keys and puzzle items make up the Progression Items, while weapons act as Useful Items, and health items/Ammo make up the game's Filler.
 
 # Setup Guide
-https://github.com/exetone/Silent-Hill-3-Archipelago
 You need a PC version of Silent Hill 3 (version 1.0.0.1.). It is *abandonware* but I have to tell you to legally procure your own copy. It's best if your legally obtained copy of the game is labelled *Full-Rip Pre-installed game with NoCD included English version 2.6 GB*.
 
 Next you'll need Steam006's PC Fix to make the game work on modern hardware. Password is pcgw. Just unzip the downloaded folder and place the loose contents in your Silent Hill 3 folder.
@@ -23,5 +22,7 @@ Download sh3.apworld from the github link and double click it to install it or m
 https://github.com/exetone/Silent-Hill-3-Archipelago/releases
 
 You can use the generated SH3AP_Mode_Toggle.bat to revert the game back to the vanilla un-archipelago version (with the Steam006 and XInputPlus fixes still applied). Savefiles made pre-modding the game will be reimplemented. Using the Toggle again will re-mod the game and bring your AP savefiles back. SH3AP_Uninstall.bat similarly uninstalls all the Archipelago related files.
+
+
 
 AI Disclaimer: AI was used throughout the coding and bug testing process for this project. If someone better at coding than me wants to attempt this project without AI then I'll support you with my full chest but at the moment with just me this wouldn't exist without AI assistance.
