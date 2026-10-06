@@ -24,5 +24,5 @@ https://github.com/exetone/Silent-Hill-3-Archipelago/releases
 You can use the generated SH3AP_Mode_Toggle.bat to revert the game back to the vanilla un-archipelago version (with the Steam006 and XInputPlus fixes still applied). Savefiles made pre-modding the game will be reimplemented. Using the Toggle again will re-mod the game and bring your AP savefiles back. SH3AP_Uninstall.bat similarly uninstalls all the Archipelago related files.  
 
 # 
-AI Disclaimer
+AI Disclaimer  
 AI was used throughout the coding and bug testing process for this project. If someone better at coding than me wants to attempt this project without AI then I'll support you with my full chest but at the moment with just me this wouldn't exist without AI assistance.
