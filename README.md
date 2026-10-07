@@ -17,7 +17,7 @@ https://0dd14lab.net/xinputplus/
 
 Download sh3.apworld from the github link and double click it to install it or move it to Archipelago\custom_worlds. Close Archipelago if you had it open, then open the Silent Hill 3 Client. This'll patch the game with everything needed. Archipelago Port, Slot, Password etc are all inputted in the Silent Hill 3 Client in the Archipelago Launcher. Just open the game and it will be connected. 
 
-An optional Poptracker pack is also available for this game on the github page.  
+An optional Poptracker pack is also available for this game in Releases.  
 
 # 
 AI Disclaimer  
