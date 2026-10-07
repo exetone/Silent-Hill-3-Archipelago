@@ -18,7 +18,9 @@ https://community.pcgamingwiki.com/files/file/1331-silent-hill-3-pc-fix-by-steam
 If you're using an Xbox controller, you'll need to download XInputPlus for the triggers to work. Download it anywhere on your PC > open XInputPlus.exe > point Target Program at sh3.exe > click the DirectInput tab and then Enable DirectInput Output > change LT/RT to Button 11/12 > Apply. After that you can delete the XInputPlus folder if you want. The website is in Japanese, don't worry about it.  
 https://0dd14lab.net/xinputplus/
 
-Download sh3.apworld from the github link and double click it to install it or move it to Archipelago\custom_worlds. Close Archipelago if you had it open, then open the Silent Hill 3 Client. This'll patch the game with everything needed. Archipelago Port, Slot, Password etc are all inputted in the Silent Hill 3 Client in the Archipelago Launcher. And that's it! An optional Poptracker pack is also available for this game on the github page.  
+Download sh3.apworld from the github link and double click it to install it or move it to Archipelago\custom_worlds. Close Archipelago if you had it open, then open the Silent Hill 3 Client. This'll patch the game with everything needed. Archipelago Port, Slot, Password etc are all inputted in the Silent Hill 3 Client in the Archipelago Launcher. Just open the game and it will be connected. 
+
+An optional Poptracker pack is also available for this game on the github page.  
 https://github.com/exetone/Silent-Hill-3-Archipelago/releases
 
 You can use the generated SH3AP_Mode_Toggle.bat to revert the game back to the vanilla un-archipelago version (with the Steam006 and XInputPlus fixes still applied). Savefiles made pre-modding the game will be reimplemented. Using the Toggle again will re-mod the game and bring your AP savefiles back. SH3AP_Uninstall.bat similarly uninstalls all the Archipelago related files.  
