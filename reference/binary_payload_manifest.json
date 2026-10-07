@@ -1,0 +1,19 @@
+{
+  "sh3/defaults/ap_data.sys": "83521ce0bdfa2f06209728e085446f61a888d2f2a9c6ffafeee777c1c396f06b",
+  "sh3/runtime/SH3AP.asi": "c3ad8abb0c89408365e0919cfab86a3e9a11402867431119c187d275cdd0bee3",
+  "sh3/runtime/SH3AP_Activity.asi": "48d552aeb309caf8c814a8153108e916b362c2599c3e5835e3ff8fa321339a0b",
+  "sh3/runtime/SH3AP_Bindings_New.asi": "0e7a853c814991c460039aab0548e5aae028ba06d3920c44e55d0b475c5bdebc",
+  "sh3/runtime/SH3AP_Controller.asi": "868652a3635c2b3f68f30c9a86ed8c1a6bc15b038e50c2244115f3fbee819017",
+  "sh3/runtime/SH3AP_ItemMessage.asi": "f77302e69a94f018d8fdf6e654f54cb45f5222726f8731be1d19a9405f0a0ead",
+  "sh3/runtime/SH3AP_LiveBridge.asi": "12dbb9520f13127e5f457040a261430d8c11cb4b4508ca20f2700abaf34e3e0f",
+  "sh3/runtime/SH3AP_Rebind_FrameLock.asi": "4957e576a594286018c242962092b5e85047615f112a66eabca1ea30b2de9f43",
+  "sh3/runtime/SH3AP_Reset_Keybinds.asi": "ca6fb3581ffa990ec0e43a366356ee897d1144440b61f7322c309c410c00979f",
+  "sh3/runtime/SH3AP_UI.asi": "fe2ac87570d998df86c9d1b78c781ac5666f07312d7e076168de12d5582b0050",
+  "sh3/sh3.png": "bfec5a7844c9ad1bb84a915d7b3159264313f8c41363a38cdcda6cf5229842fb",
+  "sh3/third_party/ultimate_asi_loader/dinput8.dll": "d5a059aa467a7a7127c8f6169f79fa63ff0f55986ee9eb2fd9a281bebf2aa2e6",
+  "sh3/third_party/user_pcfix/Silent_Hill_3_PC_Fix.dll": "5c4028c674ea9820183144e6b47372216d5c1b3c147659e175ec2ffce0ca6fbb",
+  "sh3/third_party/user_pcfix/d3d8.dll": "1b8a53d7879808bfd5c5c833b108bca9be3b510822987b3b0047edb7e6a9719d",
+  "sh3/third_party/user_pcfix/d3d9on12.dll": "67d4f1ed724927001955fe420dcf06909078b6087d601e78a8dbfbf8bf028a33",
+  "sh3/third_party/user_pcfix/dxbcSigner.dll": "5f291153682f021e88bffcdb350949153188bac22b7342041a489c86455aeb14",
+  "sh3/defaults/ap_title.rgba": "6d4ce5ffca4d779ab3e867a79758382833c3136fa874ba1b5ddfe910223b0b4e"
+}

@@ -1,0 +1,1052 @@
+{
+  "version": 3,
+  "checks": {
+    "1397248001": {
+      "region": "start",
+      "requires": []
+    },
+    "1397248002": {
+      "region": "start",
+      "requires": []
+    },
+    "1397248016": {
+      "region": "start",
+      "requires": []
+    },
+    "1397248020": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248021": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248024": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248025": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248026": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248027": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248032": {
+      "region": "mall",
+      "requires": [
+        "Key Taken with Tongs"
+      ]
+    },
+    "1397248040": {
+      "region": "ow_mall",
+      "requires": []
+    },
+    "1397248041": {
+      "region": "ow_mall",
+      "requires": []
+    },
+    "1397248042": {
+      "region": "ow_mall",
+      "requires": []
+    },
+    "1397248043": {
+      "region": "ow_mall",
+      "requires": []
+    },
+    "1397248044": {
+      "region": "ow_mall",
+      "requires": []
+    },
+    "1397248045": {
+      "region": "ow_mall",
+      "requires": []
+    },
+    "1397248052": {
+      "region": "ow_upper",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248053": {
+      "region": "ow_upper",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248055": {
+      "region": "ow_upper",
+      "requires": []
+    },
+    "1397248056": {
+      "region": "ow_upper",
+      "requires": []
+    },
+    "1397248057": {
+      "region": "ow_east",
+      "requires": []
+    },
+    "1397248058": {
+      "region": "ow_east",
+      "requires": []
+    },
+    "1397248061": {
+      "region": "ow_moths",
+      "requires": []
+    },
+    "1397248062": {
+      "region": "ow_moths",
+      "requires": []
+    },
+    "1397248063": {
+      "region": "ow_moths",
+      "requires": []
+    },
+    "1397248064": {
+      "region": "ow_moths",
+      "requires": []
+    },
+    "1397248068": {
+      "region": "mall_exit",
+      "requires": []
+    },
+    "1397248069": {
+      "region": "mall_exit",
+      "requires": []
+    },
+    "1397248070": {
+      "region": "mall_exit",
+      "requires": []
+    },
+    "1397248071": {
+      "region": "mall_exit",
+      "requires": []
+    },
+    "1397248072": {
+      "region": "mall_exit",
+      "requires": []
+    },
+    "1397248080": {
+      "region": "subway",
+      "requires": [
+        "Nutcracker",
+        "Flashlight"
+      ]
+    },
+    "1397248081": {
+      "region": "subway",
+      "requires": [
+        "Nutcracker",
+        "Flashlight"
+      ]
+    },
+    "1397248083": {
+      "region": "train",
+      "requires": []
+    },
+    "1397248084": {
+      "region": "train",
+      "requires": []
+    },
+    "1397248085": {
+      "region": "train",
+      "requires": []
+    },
+    "1397248086": {
+      "region": "train",
+      "requires": []
+    },
+    "1397248109": {
+      "region": "construction",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248110": {
+      "region": "construction",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248112": {
+      "region": "office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248113": {
+      "region": "office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248116": {
+      "region": "office",
+      "requires": []
+    },
+    "1397248117": {
+      "region": "office",
+      "requires": []
+    },
+    "1397248120": {
+      "region": "office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248124": {
+      "region": "office_lower",
+      "requires": []
+    },
+    "1397248125": {
+      "region": "ow_office",
+      "requires": []
+    },
+    "1397243908": {
+      "region": "ow_office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397243905": {
+      "region": "ow_office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397243906": {
+      "region": "ow_office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397243907": {
+      "region": "ow_office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248131": {
+      "region": "ow_office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248133": {
+      "region": "ow_office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248134": {
+      "region": "ow_office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248137": {
+      "region": "ow_imports",
+      "requires": []
+    },
+    "1397248138": {
+      "region": "ow_imports",
+      "requires": []
+    },
+    "1397248144": {
+      "region": "apartment_after",
+      "requires": []
+    },
+    "1397248145": {
+      "region": "apartment_after",
+      "requires": []
+    },
+    "1397248017": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248029": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248039": {
+      "region": "ow_mall",
+      "requires": []
+    },
+    "1397248050": {
+      "region": "ow_upper",
+      "requires": []
+    },
+    "1397248065": {
+      "region": "ow_moths",
+      "requires": []
+    },
+    "1397248073": {
+      "region": "mall_exit",
+      "requires": []
+    },
+    "1397248075": {
+      "region": "subway",
+      "requires": []
+    },
+    "1397248082": {
+      "region": "train",
+      "requires": []
+    },
+    "1397248087": {
+      "region": "platform_entry",
+      "requires": []
+    },
+    "1397248096": {
+      "region": "underpass",
+      "requires": []
+    },
+    "1397248104": {
+      "region": "sewer",
+      "requires": []
+    },
+    "1397248108": {
+      "region": "construction",
+      "requires": []
+    },
+    "1397248114": {
+      "region": "office",
+      "requires": []
+    },
+    "1397248123": {
+      "region": "office_lower",
+      "requires": []
+    },
+    "1397248126": {
+      "region": "ow_office",
+      "requires": []
+    },
+    "1397248136": {
+      "region": "ow_office",
+      "requires": []
+    },
+    "1397248141": {
+      "region": "apartments",
+      "requires": []
+    },
+    "1397248146": {
+      "region": "town_checks",
+      "requires": []
+    },
+    "1397248152": {
+      "region": "hospital_lobby_checks",
+      "requires": []
+    },
+    "1397248163": {
+      "region": "hospital_store",
+      "requires": []
+    },
+    "1397248179": {
+      "region": "ow_hospital",
+      "requires": []
+    },
+    "1397248172": {
+      "region": "ow_hospital",
+      "requires": []
+    },
+    "1397248181": {
+      "region": "ow_c4",
+      "requires": []
+    },
+    "1397248187": {
+      "region": "park",
+      "requires": []
+    },
+    "1397248190": {
+      "region": "park_after_coaster",
+      "requires": []
+    },
+    "1397248199": {
+      "region": "park_fortune",
+      "requires": []
+    },
+    "1397248205": {
+      "region": "church_entry",
+      "requires": []
+    },
+    "1397248210": {
+      "region": "church_entry",
+      "requires": []
+    },
+    "1397248214": {
+      "region": "church",
+      "requires": []
+    },
+    "1397248018": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248019": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248023": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248028": {
+      "region": "mall",
+      "requires": [
+        "Tongs"
+      ]
+    },
+    "1397248030": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248031": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248033": {
+      "region": "mall",
+      "requires": [
+        "Key Taken with Tongs"
+      ]
+    },
+    "1397248034": {
+      "region": "mall",
+      "requires": [
+        "Key Taken with Tongs"
+      ]
+    },
+    "1397248035": {
+      "region": "mall",
+      "requires": [
+        "Key Taken with Tongs"
+      ]
+    },
+    "1397248036": {
+      "region": "mall",
+      "requires": [
+        "Key Taken with Tongs"
+      ]
+    },
+    "1397248037": {
+      "region": "mall",
+      "requires": [
+        "Key Taken with Tongs"
+      ]
+    },
+    "1397248038": {
+      "region": "mall_elevator",
+      "requires": [
+        "Shakespeare Anthology 1",
+        "Shakespeare Anthology 2",
+        "Shakespeare Anthology 3",
+        "Shakespeare Anthology 4",
+        "Shakespeare Anthology 5"
+      ]
+    },
+    "1397248046": {
+      "region": "ow_mall",
+      "requires": []
+    },
+    "1397248047": {
+      "region": "ow_mall",
+      "requires": []
+    },
+    "1397248048": {
+      "region": "ow_mall",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248049": {
+      "region": "ow_mall",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248051": {
+      "region": "ow_upper",
+      "requires": []
+    },
+    "1397248054": {
+      "region": "ow_upper",
+      "requires": []
+    },
+    "1397248059": {
+      "region": "ow_east",
+      "requires": []
+    },
+    "1397248060": {
+      "region": "ow_east",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248066": {
+      "region": "ow_moths",
+      "requires": [
+        "Walnut"
+      ]
+    },
+    "1397248022": {
+      "region": "mall",
+      "requires": []
+    },
+    "1397248067": {
+      "region": "ow_boss",
+      "requires": [
+        "Moonstone",
+        "A boss weapon or Heather Beam + Transform Costume"
+      ]
+    },
+    "1397248142": {
+      "region": "apartments",
+      "requires": [
+        "House Key",
+        "A boss weapon or Heather Beam + Transform Costume"
+      ]
+    },
+    "1397248182": {
+      "region": "ow_c4",
+      "requires": [
+        "Plastic Bag (With Blood)",
+        "A boss weapon or Heather Beam + Transform Costume"
+      ]
+    },
+    "1397248203": {
+      "region": "park_carousel",
+      "requires": [
+        "A boss weapon or Heather Beam + Transform Costume"
+      ]
+    },
+    "1397248223": {
+      "region": "church",
+      "requires": [
+        "Pendant",
+        "\"Eye of the Night\" Tarot Card",
+        "\"Moon\" Tarot Card",
+        "\"Fool\" Tarot Card",
+        "\"Hanged Man\" Tarot Card",
+        "\"High Priestess\" Tarot Card",
+        "A boss weapon or Heather Beam + Transform Costume"
+      ]
+    },
+    "1397248183": {
+      "region": "ow_c4",
+      "requires": [
+        "Plastic Bag (With Blood)",
+        "A boss weapon or Heather Beam + Transform Costume"
+      ]
+    },
+    "1397248074": {
+      "region": "subway",
+      "requires": []
+    },
+    "1397248079": {
+      "region": "subway",
+      "requires": [
+        "Nutcracker"
+      ]
+    },
+    "1397248088": {
+      "region": "underpass",
+      "requires": []
+    },
+    "1397248089": {
+      "region": "underpass",
+      "requires": []
+    },
+    "1397248097": {
+      "region": "underpass",
+      "requires": [
+        "Wine Bottle"
+      ]
+    },
+    "1397248106": {
+      "region": "sewer",
+      "requires": [
+        "Dryer",
+        "Steel Pipe"
+      ]
+    },
+    "1397248107": {
+      "region": "sewer",
+      "requires": [
+        "Dryer",
+        "Steel Pipe"
+      ]
+    },
+    "1397248111": {
+      "region": "construction",
+      "requires": [
+        "Flashlight",
+        "Wall-breaking weapon"
+      ]
+    },
+    "1397248118": {
+      "region": "office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248115": {
+      "region": "office",
+      "requires": []
+    },
+    "1397248135": {
+      "region": "ow_office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248132": {
+      "region": "ow_office",
+      "requires": []
+    },
+    "1397248139": {
+      "region": "ow_imports",
+      "requires": []
+    },
+    "1397248140": {
+      "region": "ow_imports",
+      "requires": [
+        "Silver Coin"
+      ]
+    },
+    "1397248143": {
+      "region": "apartment_after",
+      "requires": []
+    },
+    "1397248147": {
+      "region": "apartment_after",
+      "requires": []
+    },
+    "1397248148": {
+      "region": "apartment_after",
+      "requires": []
+    },
+    "1397248154": {
+      "region": "hospital_lobby_checks",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248155": {
+      "region": "hospital_lobby_checks",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248156": {
+      "region": "hospital_pre",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248157": {
+      "region": "hospital_pre",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248158": {
+      "region": "hospital_pre",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248160": {
+      "region": "hospital_pre",
+      "requires": [
+        "Nail Polish Remover"
+      ]
+    },
+    "1397248162": {
+      "region": "hospital_upper",
+      "requires": [
+        "Stairwell Key",
+        "Flashlight"
+      ]
+    },
+    "1397248078": {
+      "region": "subway",
+      "requires": []
+    },
+    "1397248091": {
+      "region": "underpass",
+      "requires": []
+    },
+    "1397248102": {
+      "region": "sewer",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248121": {
+      "region": "office",
+      "requires": []
+    },
+    "1397248119": {
+      "region": "office",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248122": {
+      "region": "office",
+      "requires": [
+        "Screwdriver"
+      ]
+    },
+    "1397248220": {
+      "region": "church",
+      "requires": []
+    },
+    "1397248222": {
+      "region": "church_entry",
+      "requires": [
+        "Brass Key"
+      ]
+    },
+    "1397248206": {
+      "region": "church_entry",
+      "requires": []
+    },
+    "1397248076": {
+      "region": "subway",
+      "requires": []
+    },
+    "1397248224": {
+      "region": "subway",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248094": {
+      "region": "underpass",
+      "requires": []
+    },
+    "1397248095": {
+      "region": "underpass",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248098": {
+      "region": "underpass",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248099": {
+      "region": "underpass",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248100": {
+      "region": "underpass",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248101": {
+      "region": "underpass",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248103": {
+      "region": "sewer",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248105": {
+      "region": "sewer",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248149": {
+      "region": "town_checks",
+      "requires": []
+    },
+    "1397248150": {
+      "region": "town_checks",
+      "requires": []
+    },
+    "1397248151": {
+      "region": "town_checks",
+      "requires": []
+    },
+    "1397248153": {
+      "region": "hospital_lobby_checks",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248159": {
+      "region": "hospital_pre",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248161": {
+      "region": "hospital_upper",
+      "requires": [
+        "Stairwell Key",
+        "Flashlight"
+      ]
+    },
+    "1397248167": {
+      "region": "hospital_upper",
+      "requires": [
+        "Stairwell Key"
+      ]
+    },
+    "1397248168": {
+      "region": "hospital_upper",
+      "requires": [
+        "Stairwell Key"
+      ]
+    },
+    "1397248164": {
+      "region": "hospital_upper",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248165": {
+      "region": "hospital_upper",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248166": {
+      "region": "hospital_upper",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248169": {
+      "region": "hospital_patient",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248170": {
+      "region": "hospital_patient",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248171": {
+      "region": "hospital_patient",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248173": {
+      "region": "ow_hospital",
+      "requires": []
+    },
+    "1397248174": {
+      "region": "ow_hospital",
+      "requires": []
+    },
+    "1397248177": {
+      "region": "ow_hospital",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248180": {
+      "region": "ow_hospital",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248225": {
+      "region": "ow_patient",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248175": {
+      "region": "ow_hospital",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248176": {
+      "region": "ow_hospital",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248178": {
+      "region": "ow_hospital",
+      "requires": [
+        "Plastic Bag"
+      ]
+    },
+    "1397248226": {
+      "region": "ow_patient",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248188": {
+      "region": "park",
+      "requires": [
+        "Roller Coaster Key",
+        "Flashlight"
+      ]
+    },
+    "1397248189": {
+      "region": "park",
+      "requires": [
+        "Roller Coaster Key",
+        "Flashlight"
+      ]
+    },
+    "1397248192": {
+      "region": "park_theatre",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248193": {
+      "region": "park_theatre",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248200": {
+      "region": "park_carousel",
+      "requires": []
+    },
+    "1397248201": {
+      "region": "park_carousel",
+      "requires": []
+    },
+    "1397248202": {
+      "region": "park_carousel",
+      "requires": []
+    },
+    "1397248218": {
+      "region": "church",
+      "requires": []
+    },
+    "1397248219": {
+      "region": "church",
+      "requires": []
+    },
+    "1397248221": {
+      "region": "church",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248216": {
+      "region": "church",
+      "requires": []
+    },
+    "1397248217": {
+      "region": "church",
+      "requires": []
+    },
+    "1397248186": {
+      "region": "park",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248194": {
+      "region": "park_theatre",
+      "requires": []
+    },
+    "1397248191": {
+      "region": "park_theatre",
+      "requires": []
+    },
+    "1397248196": {
+      "region": "park_fortune",
+      "requires": []
+    },
+    "1397248197": {
+      "region": "park_fortune",
+      "requires": []
+    },
+    "1397248204": {
+      "region": "church_entry",
+      "requires": []
+    },
+    "1397248211": {
+      "region": "church",
+      "requires": []
+    },
+    "1397248212": {
+      "region": "church",
+      "requires": []
+    },
+    "1397248215": {
+      "region": "church",
+      "requires": []
+    },
+    "1397248213": {
+      "region": "church",
+      "requires": []
+    },
+    "1397248185": {
+      "region": "park",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248184": {
+      "region": "park",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248195": {
+      "region": "park_theatre",
+      "requires": []
+    },
+    "1397248208": {
+      "region": "church_entry",
+      "requires": []
+    },
+    "1397248209": {
+      "region": "church_entry",
+      "requires": []
+    },
+    "1397248207": {
+      "region": "church_entry",
+      "requires": []
+    },
+    "1397248227": {
+      "region": "subway",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248228": {
+      "region": "subway",
+      "requires": [
+        "Flashlight"
+      ]
+    },
+    "1397248229": {
+      "region": "subway",
+      "requires": [
+        "Flashlight"
+      ]
+    }
+  }
+}

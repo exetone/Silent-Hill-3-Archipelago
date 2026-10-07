@@ -1,0 +1,61 @@
+{
+  "original_sha256": "18cae26e5746b8e7faf6dc4643f50fc816781c1b67fe193baa944366b9f65b08",
+  "patched_sha256": "fe2ac87570d998df86c9d1b78c781ac5666f07312d7e076168de12d5582b0050",
+  "patches": [
+    {
+      "site": "0x10021c21",
+      "old": 1500.0,
+      "new_relative_x": 1620.0,
+      "thunk": "0x103aa420",
+      "length": 23,
+      "bytes": "ba0080ca44660f6ed2f30f58942430010000e9f377c7ff"
+    },
+    {
+      "site": "0x10021c2f",
+      "old": 1900.0,
+      "new_relative_x": 2020.0,
+      "thunk": "0x103aa437",
+      "length": 23,
+      "bytes": "ba0080fc44660f6ed2f30f58942430010000e9ea77c7ff"
+    },
+    {
+      "site": "0x10021c90",
+      "old": 1500.0,
+      "new_relative_x": 1620.0,
+      "thunk": "0x103aa44e",
+      "length": 23,
+      "bytes": "b80080ca44660f6ec0f30f58842430010000e93478c7ff"
+    },
+    {
+      "site": "0x10021c99",
+      "old": 1900.0,
+      "new_relative_x": 2020.0,
+      "thunk": "0x103aa465",
+      "length": 23,
+      "bytes": "b80080fc44660f6ed0f30f58942430010000e92678c7ff"
+    },
+    {
+      "site": "0x10021cd2",
+      "old": 1512.0,
+      "new_relative_x": 1632.0,
+      "thunk": "0x103aa47c",
+      "length": 23,
+      "bytes": "b80000cc44660f6ec0f30f58842430010000e94878c7ff"
+    },
+    {
+      "site": "0x10021cfa",
+      "old": 1776.0,
+      "new_relative_x": 1896.0,
+      "thunk": "0x103aa493",
+      "length": 23,
+      "bytes": "b80000ed44660f6ec0f30f58842430010000e95978c7ff"
+    }
+  ],
+  "mouse_rows_corrected": [
+    4,
+    5,
+    6
+  ],
+  "code_bytes_added": 138,
+  "windows_visual_tested": false
+}
