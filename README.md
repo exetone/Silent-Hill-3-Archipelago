@@ -10,7 +10,7 @@ Due to the modular way the items are placed only Normal Action Difficulty and No
 The Goal is to either kill God or kill all 5 bosses depending on your YAML settings. Key Items like keys and puzzle items make up the Progression Items, while weapons act as Useful Items, and health items/Ammo make up the game's Filler.
 
 # Setup Guide
-You need a PC version of Silent Hill 3 (version 1.0.0.1.). It is *abandonware* but I have to tell you to legally procure your own copy. It's best if your legally obtained copy of the game is labelled *Full-Rip Pre-installed game with NoCD included English version 2.6 GB*.
+You need a PC version of Silent Hill 3 (version 1.0.0.1.).
 
 Next you'll need Steam006's PC Fix to make the game work on modern hardware. Password is pcgw. Just unzip the downloaded folder and place the loose contents in your Silent Hill 3 folder.  
 https://community.pcgamingwiki.com/files/file/1331-silent-hill-3-pc-fix-by-steam006/
