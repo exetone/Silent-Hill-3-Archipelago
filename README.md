@@ -15,7 +15,7 @@ You need the 1.0.0.1 PC version of Silent Hill 3.
 If you're using an Xbox controller, you'll need to download XInputPlus for the triggers to work. Download it anywhere on your PC > open XInputPlus.exe > point Target Program at sh3.exe > click the DirectInput tab and then Enable DirectInput Output > change LT/RT to Button 11/12 > Apply. After that you can delete the XInputPlus folder if you want. The website is in Japanese, don't worry about it.  
 https://0dd14lab.net/xinputplus/
 
-Download sh3.apworld from the github link and double click it to install it or move it to Archipelago\custom_worlds. Close Archipelago if you had it open, then open the Silent Hill 3 Client. This'll patch the game with everything needed. Archipelago Port, Slot, Password etc are all inputted in the Silent Hill 3 Client in the Archipelago Launcher. Just open the game and it will be connected. 
+Download the newest sh3.apworld from Releases and double click it to install it or move it to Archipelago\custom_worlds. Close Archipelago if you had it open, then open the Silent Hill 3 Client. This'll patch the game with everything needed. Archipelago Port, Slot, Password etc are all inputted in the Silent Hill 3 Client in the Archipelago Launcher. Just open the game and it will be connected. 
 
 An optional Poptracker pack is also available for this game in Releases.  
 
