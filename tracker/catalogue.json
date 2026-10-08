@@ -1,0 +1,1921 @@
+{
+  "schema": 1,
+  "areas": [
+    "Starting Items",
+    "Mall",
+    "Otherworld Mall",
+    "Subway",
+    "Underpass",
+    "Sewers",
+    "Construction Site",
+    "Hilltop Center",
+    "Otherworld Hilltop Center",
+    "Daisy Villa Apartments",
+    "Silent Hill",
+    "Hospital",
+    "Otherworld Hospital",
+    "Amusement Park",
+    "Church"
+  ],
+  "checks": [
+    {
+      "index": 1,
+      "name": "Starting Item - House Key",
+      "vanilla": "House Key",
+      "requirements": "Starting inventory",
+      "id": 1397248001,
+      "area": 0,
+      "implemented": true
+    },
+    {
+      "index": 2,
+      "name": "Starting Item - Pendant",
+      "vanilla": "Pendant",
+      "requirements": "Starting inventory",
+      "id": 1397248002,
+      "area": 0,
+      "implemented": true
+    },
+    {
+      "index": 16,
+      "name": "Starting Item - Knife",
+      "vanilla": "Knife",
+      "requirements": "Starting inventory",
+      "id": 1397248016,
+      "area": 0,
+      "implemented": true
+    },
+    {
+      "index": 17,
+      "name": "Mall 1F Toilet Fast Travel",
+      "vanilla": "Mall 1F Toilet Fast Travel",
+      "requirements": "Start",
+      "id": 1397248017,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 18,
+      "name": "Mall 1F Alleyway - Unlimited Submachine Gun",
+      "vanilla": "Unlimited Submachine Gun",
+      "requirements": "-",
+      "id": 1397248018,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 19,
+      "name": "Mall 1F Boutique - Handgun",
+      "vanilla": "Handgun",
+      "requirements": "-",
+      "id": 1397248019,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 20,
+      "name": "Mall 1F Boutique - Handgun Bullets 1",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248020,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 21,
+      "name": "Mall 1F Boutique - Handgun Bullets 2",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248021,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 22,
+      "name": "Mall 1F Hallway - Shopping Mall Map",
+      "vanilla": "Shopping Mall Map",
+      "requirements": "-",
+      "id": 1397248022,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 23,
+      "name": "Mall 2F Bakery - Tongs",
+      "vanilla": "Tongs",
+      "requirements": "-",
+      "id": 1397248023,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 31,
+      "name": "Mall 2F Bakery - Flamethrower",
+      "vanilla": "Flamethrower",
+      "requirements": "-",
+      "id": 1397248031,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 24,
+      "name": "Mall 2F Supply Room - Beef Jerky",
+      "vanilla": "Beef Jerky",
+      "requirements": "-",
+      "id": 1397248024,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 25,
+      "name": "Mall 2F Storeroom - Health Drink 1",
+      "vanilla": "Health Drink",
+      "requirements": "-",
+      "id": 1397248025,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 26,
+      "name": "Mall 2F Storeroom - Health Drink 2",
+      "vanilla": "Health Drink",
+      "requirements": "-",
+      "id": 1397248026,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 27,
+      "name": "Mall 2F Storeroom - Handgun Bullets",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248027,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 28,
+      "name": "Mall 2F Storeroom - Key Taken with Tongs",
+      "vanilla": "Key Taken with Tongs",
+      "requirements": "Tongs",
+      "id": 1397248028,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 29,
+      "name": "Mall 2F Storeroom Fast Travel",
+      "vanilla": "2nd Floor Storeroom Fast Travel",
+      "requirements": "-",
+      "id": 1397248029,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 30,
+      "name": "Mall 2F Hallway - Beam Saber",
+      "vanilla": "Beam Saber",
+      "requirements": "-",
+      "id": 1397248030,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 32,
+      "name": "Mall 2F Bookstore - Handgun Bullets",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Tongs / Key",
+      "id": 1397248032,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 33,
+      "name": "Mall 2F Bookstore - Shakespeare Anthology 1",
+      "vanilla": "Shakespeare Anthology 1",
+      "requirements": "Tongs / Key",
+      "id": 1397248033,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 34,
+      "name": "Mall 2F Bookstore - Shakespeare Anthology 2",
+      "vanilla": "Shakespeare Anthology 2",
+      "requirements": "Tongs / Key",
+      "id": 1397248034,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 35,
+      "name": "Mall 2F Bookstore - Shakespeare Anthology 3",
+      "vanilla": "Shakespeare Anthology 3",
+      "requirements": "Tongs / Key",
+      "id": 1397248035,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 36,
+      "name": "Mall 2F Bookstore - Shakespeare Anthology 4",
+      "vanilla": "Shakespeare Anthology 4",
+      "requirements": "Tongs / Key",
+      "id": 1397248036,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 37,
+      "name": "Mall 2F Bookstore - Shakespeare Anthology 5",
+      "vanilla": "Shakespeare Anthology 5",
+      "requirements": "Tongs / Key",
+      "id": 1397248037,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 38,
+      "name": "Mall 2F Elevator - Radio",
+      "vanilla": "Radio",
+      "requirements": "-",
+      "id": 1397248038,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 39,
+      "name": "Otherworld Mall 1F First Aid Room Fast Travel",
+      "vanilla": "First Aid Room Fast Travel",
+      "requirements": "-",
+      "id": 1397248039,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 40,
+      "name": "Otherworld Mall 1F First Aid Room - Health Drink 1",
+      "vanilla": "Health Drink",
+      "requirements": "-",
+      "id": 1397248040,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 41,
+      "name": "Otherworld Mall 1F First Aid Room - Health Drink 2",
+      "vanilla": "Health Drink",
+      "requirements": "-",
+      "id": 1397248041,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 42,
+      "name": "Otherworld Mall 1F First Aid Room - Ampoule",
+      "vanilla": "Ampoule",
+      "requirements": "-",
+      "id": 1397248042,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 43,
+      "name": "Otherworld Mall 1F Supply Room - Handgun Bullets 1",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248043,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 44,
+      "name": "Otherworld Mall 1F Supply Room - Handgun Bullets 2",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248044,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 45,
+      "name": "Otherworld Mall 1F Supply Room - First-Aid Kit",
+      "vanilla": "First-Aid Kit",
+      "requirements": "-",
+      "id": 1397248045,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 46,
+      "name": "Otherworld Mall 1F Supply Room - Flashlight",
+      "vanilla": "Flashlight",
+      "requirements": "-",
+      "id": 1397248046,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 47,
+      "name": "Otherworld Mall 1F Ladies' Room - Bleach",
+      "vanilla": "Bleach",
+      "requirements": "-",
+      "id": 1397248047,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 48,
+      "name": "Otherworld Mall 1F Boutique - Hanger",
+      "vanilla": "Hanger",
+      "requirements": "Flashlight",
+      "id": 1397248048,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 49,
+      "name": "Otherworld Mall 1F Boutique - Bulletproof Vest",
+      "vanilla": "Bulletproof Vest",
+      "requirements": "Flashlight",
+      "id": 1397248049,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 50,
+      "name": "Otherworld Mall 2F Walkway Fast Travel",
+      "vanilla": "2nd Floor Walkway Fast Travel",
+      "requirements": "Hanger",
+      "id": 1397248050,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 51,
+      "name": "Otherworld Mall 2F Jewellery Store - Walnut",
+      "vanilla": "Walnut",
+      "requirements": "-",
+      "id": 1397248051,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 52,
+      "name": "Otherworld Mall 2F Clothes Store - Handgun Bullets 3",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Flashlight",
+      "id": 1397248052,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 53,
+      "name": "Otherworld Mall 2F Clothes Store - Health Drink 1",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248053,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 54,
+      "name": "Otherworld Mall 3F Restaurant - Cooked Key",
+      "vanilla": "Cooked Key",
+      "requirements": "-",
+      "id": 1397248054,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 55,
+      "name": "Otherworld Mall 3F Restaurant - Health Drink 2",
+      "vanilla": "Health Drink",
+      "requirements": "-",
+      "id": 1397248055,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 56,
+      "name": "Otherworld Mall 3F Restaurant - First-Aid Kit 2",
+      "vanilla": "First-Aid Kit",
+      "requirements": "-",
+      "id": 1397248056,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 57,
+      "name": "Otherworld Mall 2F Caf\u00e9 - Health Drink 1",
+      "vanilla": "Health Drink",
+      "requirements": "Cooked Key",
+      "id": 1397248057,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 58,
+      "name": "Otherworld Mall 2F Caf\u00e9 - Health Drink 2",
+      "vanilla": "Health Drink",
+      "requirements": "Cooked Key",
+      "id": 1397248058,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 59,
+      "name": "Otherworld Mall 2F Caf\u00e9 - Steel Pipe",
+      "vanilla": "Steel Pipe",
+      "requirements": "Cooked Key",
+      "id": 1397248059,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 60,
+      "name": "Otherworld Mall 2F Bakery - Detergent",
+      "vanilla": "Detergent",
+      "requirements": "Flashlight",
+      "id": 1397248060,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 61,
+      "name": "Otherworld Mall 2F Supply Room - Handgun Bullets 1",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Bleach AND Detergent",
+      "id": 1397248061,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 62,
+      "name": "Otherworld Mall 2F Supply Room - Handgun Bullets 2",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Bleach AND Detergent",
+      "id": 1397248062,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 63,
+      "name": "Otherworld Mall 2F Supply Room - Handgun Bullets 3",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Bleach AND Detergent",
+      "id": 1397248063,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 64,
+      "name": "Otherworld Mall 2F Supply Room - Beef Jerky",
+      "vanilla": "Beef Jerky",
+      "requirements": "Bleach AND Detergent",
+      "id": 1397248064,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 65,
+      "name": "Otherworld Mall 2F Sports Shop Fast Travel",
+      "vanilla": "Sports Shop Fast Travel",
+      "requirements": "-",
+      "id": 1397248065,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 66,
+      "name": "Otherworld Mall 2F Sports Shop - Moonstone",
+      "vanilla": "Moonstone",
+      "requirements": "Walnut",
+      "id": 1397248066,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 67,
+      "name": "Split Worm",
+      "vanilla": "Split Worm",
+      "requirements": "Moonstone",
+      "id": 1397248067,
+      "area": 2,
+      "implemented": true
+    },
+    {
+      "index": 68,
+      "name": "Mall 1F Burger Shop - Handgun Bullets 1",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248068,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 69,
+      "name": "Mall 1F Burger Shop - Handgun Bullets 2",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248069,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 70,
+      "name": "Mall 1F Burger Shop - Handgun Bullets 3",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248070,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 71,
+      "name": "Mall 1F Burger Shop - First-Aid Kit",
+      "vanilla": "First-Aid Kit",
+      "requirements": "-",
+      "id": 1397248071,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 72,
+      "name": "Mall 1F Burger Shop - Beef Jerky",
+      "vanilla": "Beef Jerky",
+      "requirements": "-",
+      "id": 1397248072,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 73,
+      "name": "Mall 1F Burger Shop Fast Travel",
+      "vanilla": "Burger Shop Fast Travel",
+      "requirements": "-",
+      "id": 1397248073,
+      "area": 1,
+      "implemented": true
+    },
+    {
+      "index": 74,
+      "name": "Subway B1 - Subway Map",
+      "vanilla": "Subway Map",
+      "requirements": "-",
+      "id": 1397248074,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 75,
+      "name": "Subway B2 Stairs Fast Travel",
+      "vanilla": "Subway B2 Stairs Fast Travel",
+      "requirements": "-",
+      "id": 1397248075,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 76,
+      "name": "Subway B5 Platform 4 - Supply",
+      "vanilla": "Supply",
+      "requirements": "-",
+      "id": 1397248076,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 224,
+      "name": "Subway B5 Platform 3 - Supply",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248224,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 78,
+      "name": "Subway B4 - Nutcracker",
+      "vanilla": "Nutcracker",
+      "requirements": "-",
+      "id": 1397248078,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 79,
+      "name": "Subway B3 Platform 2 Carriage - Shotgun",
+      "vanilla": "Shotgun",
+      "requirements": "Nutcracker",
+      "id": 1397248079,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 80,
+      "name": "Subway B3 Platform 2 Carriage - Shotgun Shells 1",
+      "vanilla": "Shotgun Shells",
+      "requirements": "Flashlight",
+      "id": 1397248080,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 81,
+      "name": "Subway B3 Platform 2 Carriage - Shotgun Shells 2",
+      "vanilla": "Shotgun Shells",
+      "requirements": "Flashlight",
+      "id": 1397248081,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 82,
+      "name": "Subway B5 Train Fast Travel",
+      "vanilla": "In the In The Train Fast Travel",
+      "requirements": "-",
+      "id": 1397248082,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 83,
+      "name": "Subway B5 Train - First-Aid Kit",
+      "vanilla": "First-Aid Kit",
+      "requirements": "-",
+      "id": 1397248083,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 84,
+      "name": "Subway B5 Train - Shotgun Shells",
+      "vanilla": "Shotgun Shells",
+      "requirements": "-",
+      "id": 1397248084,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 85,
+      "name": "Subway B5 Train - Handgun Bullets 1",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248085,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 86,
+      "name": "Subway B5 Train - Handgun Bullets 2",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248086,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 87,
+      "name": "Underpass Platform (Unknown Station) Fast Travel",
+      "vanilla": "Platform (unknown station) Fast Travel",
+      "requirements": "-",
+      "id": 1397248087,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 88,
+      "name": "Underpass Locker Room - Underpass Map",
+      "vanilla": "Underpass Map",
+      "requirements": "Flashlight",
+      "id": 1397248088,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 89,
+      "name": "Underpass Locker Room - Maul",
+      "vanilla": "Maul",
+      "requirements": "Flashlight",
+      "id": 1397248089,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 91,
+      "name": "Underpass Wine Rack - Wine Bottle",
+      "vanilla": "Wine Bottle",
+      "requirements": "-",
+      "id": 1397248091,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 94,
+      "name": "Underpass Wine Rack - Beef Jerky",
+      "vanilla": "Beef Jerky",
+      "requirements": "-",
+      "id": 1397248094,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 95,
+      "name": "Underpass Dead End - Shotgun Shells",
+      "vanilla": "Shotgun Shells",
+      "requirements": "Flashlight",
+      "id": 1397248095,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 96,
+      "name": "Underpass Underground Passage Office Fast Travel",
+      "vanilla": "Underground Passage Fast Travel",
+      "requirements": "-",
+      "id": 1397248096,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 97,
+      "name": "Underpass Underground Passage Office - Oil-Filled Bottle",
+      "vanilla": "Oil-Filled Bottle",
+      "requirements": "Wine Bottle",
+      "id": 1397248097,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 98,
+      "name": "Underpass Underground Passage Office - Health Drink 1",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248098,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 99,
+      "name": "Underpass Underground Passage Office - Health Drink 2",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248099,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 100,
+      "name": "Underpass Underground Passage Office - Handgun Bullets",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Flashlight",
+      "id": 1397248100,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 101,
+      "name": "Underpass Underground Passage Office - Shotgun Shells",
+      "vanilla": "Shotgun Shells",
+      "requirements": "Flashlight",
+      "id": 1397248101,
+      "area": 4,
+      "implemented": true
+    },
+    {
+      "index": 102,
+      "name": "Sewer Dump - Dryer",
+      "vanilla": "Dryer",
+      "requirements": "Oil-Filled Bottle AND Flashlight",
+      "id": 1397248102,
+      "area": 5,
+      "implemented": true
+    },
+    {
+      "index": 103,
+      "name": "Sewer Dump - Ampoule",
+      "vanilla": "Ampoule",
+      "requirements": "Flashlight",
+      "id": 1397248103,
+      "area": 5,
+      "implemented": true
+    },
+    {
+      "index": 104,
+      "name": "Sewer Office Fast Travel",
+      "vanilla": "Sewers Fast Travel",
+      "requirements": "-",
+      "id": 1397248104,
+      "area": 5,
+      "implemented": true
+    },
+    {
+      "index": 105,
+      "name": "Sewer Office - Health Drink",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248105,
+      "area": 5,
+      "implemented": true
+    },
+    {
+      "index": 106,
+      "name": "Sewer Fairy - Gold Pipe",
+      "vanilla": "Gold Pipe",
+      "requirements": "Dryer AND Steel Pipe",
+      "id": 1397248106,
+      "area": 5,
+      "implemented": true
+    },
+    {
+      "index": 107,
+      "name": "Sewer Fairy - Silver Pipe",
+      "vanilla": "Silver Pipe",
+      "requirements": "Dryer AND Steel Pipe",
+      "id": 1397248107,
+      "area": 5,
+      "implemented": true
+    },
+    {
+      "index": 108,
+      "name": "Construction Site Fast Travel",
+      "vanilla": "Construction Site Fast Travel",
+      "requirements": "-",
+      "id": 1397248108,
+      "area": 6,
+      "implemented": true
+    },
+    {
+      "index": 109,
+      "name": "Construction Site 5F - Health Drink",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248109,
+      "area": 6,
+      "implemented": true
+    },
+    {
+      "index": 110,
+      "name": "Construction Site 5F - Handgun Bullets",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Flashlight",
+      "id": 1397248110,
+      "area": 6,
+      "implemented": true
+    },
+    {
+      "index": 111,
+      "name": "Construction Site 5F Hidden Wall - Silencer",
+      "vanilla": "Silencer",
+      "requirements": "Flashlight AND any weapon other than Stun Gun or Flamethrower (Knife counts)",
+      "id": 1397248111,
+      "area": 6,
+      "implemented": true
+    },
+    {
+      "index": 112,
+      "name": "Office 3F Mannequin Room - Handgun Bullets",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Flashlight",
+      "id": 1397248112,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 113,
+      "name": "Office 3F Mannequin Room - Shotgun Shells",
+      "vanilla": "Shotgun Shells",
+      "requirements": "Flashlight",
+      "id": 1397248113,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 114,
+      "name": "Office 3F Dance Studio Fast Travel",
+      "vanilla": "Dance Hall Office Fast Travel",
+      "requirements": "-",
+      "id": 1397248114,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 115,
+      "name": "Office 3F Dance Studio - Office Building Map",
+      "vanilla": "Office Building Map",
+      "requirements": "-",
+      "id": 1397248115,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 116,
+      "name": "Office 3F Locker Room - Supply 1",
+      "vanilla": "Supply",
+      "requirements": "-",
+      "id": 1397248116,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 117,
+      "name": "Office 3F Locker Room - Supply 2",
+      "vanilla": "Supply",
+      "requirements": "-",
+      "id": 1397248117,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 118,
+      "name": "Office 5F Art Storage - Katana",
+      "vanilla": "Katana",
+      "requirements": "Flashlight",
+      "id": 1397248118,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 119,
+      "name": "Office 5F Gallery of Fine Arts Hallway - Screwdriver",
+      "vanilla": "Screwdriver",
+      "requirements": "Flashlight",
+      "id": 1397248119,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 120,
+      "name": "Office 5F KMN Auto Parts - Health Drink",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248120,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 121,
+      "name": "Office 5F KMN Auto Parts - Jack",
+      "vanilla": "Jack",
+      "requirements": "-",
+      "id": 1397248121,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 122,
+      "name": "Office 3F Dance Studio - Rope",
+      "vanilla": "Rope",
+      "requirements": "Screwdriver",
+      "id": 1397248122,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 123,
+      "name": "Office 2F 2nd Floor Hall Fast Travel",
+      "vanilla": "2nd Floor Hall Fast Travel",
+      "requirements": "Rope AND Jack",
+      "id": 1397248123,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 124,
+      "name": "Office 2F ECHO Interiors - Beef Jerky",
+      "vanilla": "Beef Jerky",
+      "requirements": "-",
+      "id": 1397248124,
+      "area": 7,
+      "implemented": true
+    },
+    {
+      "index": 125,
+      "name": "Otherworld Office 2F Wheelchair Baby - Handgun Bullets",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248125,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 126,
+      "name": "Otherworld Office 2F Mental Health Clinic Fast Travel",
+      "vanilla": "Mental Clinic Fast Travel",
+      "requirements": "-",
+      "id": 1397248126,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 127,
+      "name": "Otherworld Office 2F Mental Health Clinic - Oxydol",
+      "vanilla": "Oxydol",
+      "requirements": "Flashlight",
+      "id": 1397243908,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 128,
+      "name": "Otherworld Office 2F Mental Health Clinic - Supply 1",
+      "vanilla": "Supply",
+      "requirements": "Flashlight",
+      "id": 1397243905,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 129,
+      "name": "Otherworld Office 2F Mental Health Clinic - Supply 2",
+      "vanilla": "Supply",
+      "requirements": "Flashlight",
+      "id": 1397243906,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 130,
+      "name": "Otherworld Office 2F Mental Health Clinic - Supply 3",
+      "vanilla": "Supply",
+      "requirements": "Flashlight",
+      "id": 1397243907,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 131,
+      "name": "Otherworld Office 1F Cafe - Shotgun Shells",
+      "vanilla": "Shotgun Shells",
+      "requirements": "Flashlight",
+      "id": 1397248131,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 132,
+      "name": "Otherworld Office 1F Cafe - Pork Liver",
+      "vanilla": "Pork Liver",
+      "requirements": "-",
+      "id": 1397248132,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 133,
+      "name": "Otherworld Office 5F KMN Auto Parts - Handgun Bullets 1",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Flashlight",
+      "id": 1397248133,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 134,
+      "name": "Otherworld Office 5F KMN Auto Parts - Handgun Bullets 2",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Flashlight",
+      "id": 1397248134,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 135,
+      "name": "Otherworld Office 5F KMN Auto Parts - Matchbook",
+      "vanilla": "Matchbook",
+      "requirements": "Flashlight",
+      "id": 1397248135,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 136,
+      "name": "Otherworld Office 5F Gallery Fast Travel",
+      "vanilla": "Gallery Fast Travel",
+      "requirements": "-",
+      "id": 1397248136,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 137,
+      "name": "Otherworld Office 4F Imports Bedroom - First-Aid Kit",
+      "vanilla": "First-Aid Kit",
+      "requirements": "Oxydol AND Pork Liver AND Matchbook",
+      "id": 1397248137,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 138,
+      "name": "Otherworld Office 4F Imports Bedroom - Handgun Bullets",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Oxydol AND Pork Liver AND Matchbook",
+      "id": 1397248138,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 139,
+      "name": "Otherworld Office 4F Imports Office - Silver Coin",
+      "vanilla": "Silver Coin",
+      "requirements": "-",
+      "id": 1397248139,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 140,
+      "name": "Otherworld Office 4F Imports Office - Life Insurance Key",
+      "vanilla": "Life Insurance Key",
+      "requirements": "Silver Coin",
+      "id": 1397248140,
+      "area": 8,
+      "implemented": true
+    },
+    {
+      "index": 141,
+      "name": "Daisy Villa Apartments Fast Travel",
+      "vanilla": "Apt. Hall Fast Travel",
+      "requirements": "-",
+      "id": 1397248141,
+      "area": 9,
+      "implemented": true
+    },
+    {
+      "index": 142,
+      "name": "Missionary",
+      "vanilla": "Missionary",
+      "requirements": "House Key",
+      "id": 1397248142,
+      "area": 9,
+      "implemented": true
+    },
+    {
+      "index": 143,
+      "name": "Heather's Room - Stun Gun",
+      "vanilla": "Stun Gun",
+      "requirements": "-",
+      "id": 1397248143,
+      "area": 9,
+      "implemented": true
+    },
+    {
+      "index": 144,
+      "name": "Heather's Room - Stun Gun Battery 1",
+      "vanilla": "Stun Gun Battery",
+      "requirements": "-",
+      "id": 1397248144,
+      "area": 9,
+      "implemented": true
+    },
+    {
+      "index": 145,
+      "name": "Heather's Room - Stun Gun Battery 2",
+      "vanilla": "Stun Gun Battery",
+      "requirements": "-",
+      "id": 1397248145,
+      "area": 9,
+      "implemented": true
+    },
+    {
+      "index": 146,
+      "name": "Motel Fast Travel",
+      "vanilla": "Motel Fast Travel",
+      "requirements": "-",
+      "id": 1397248146,
+      "area": 10,
+      "implemented": true
+    },
+    {
+      "index": 147,
+      "name": "Daisy Villa Apartments - Dad's Notebook",
+      "vanilla": "Dad's Notebook",
+      "requirements": "-",
+      "id": 1397248147,
+      "area": 9,
+      "implemented": true
+    },
+    {
+      "index": 148,
+      "name": "Daisy Villa Apartments - Silent Hill Map",
+      "vanilla": "Silent Hill Map",
+      "requirements": "-",
+      "id": 1397248148,
+      "area": 9,
+      "implemented": true
+    },
+    {
+      "index": 149,
+      "name": "Heaven's Night - Shotgun Shells",
+      "vanilla": "Shotgun Shells",
+      "requirements": "-",
+      "id": 1397248149,
+      "area": 10,
+      "implemented": true
+    },
+    {
+      "index": 150,
+      "name": "Heaven's Night - First-Aid Kit",
+      "vanilla": "First-Aid Kit",
+      "requirements": "-",
+      "id": 1397248150,
+      "area": 10,
+      "implemented": true
+    },
+    {
+      "index": 151,
+      "name": "Heaven's Night - Beef Jerky",
+      "vanilla": "Beef Jerky",
+      "requirements": "-",
+      "id": 1397248151,
+      "area": 10,
+      "implemented": true
+    },
+    {
+      "index": 152,
+      "name": "Hospital 1F Office Fast Travel",
+      "vanilla": "Hospital 1F Office Fast Travel",
+      "requirements": "-",
+      "id": 1397248152,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 153,
+      "name": "Hospital 1F Office - Health Drink",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248153,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 154,
+      "name": "Hospital 1F Office - Hospital Map",
+      "vanilla": "Hospital Map",
+      "requirements": "Flashlight",
+      "id": 1397248154,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 155,
+      "name": "Hospital 1F Lounge Fridge - Health Drink",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248155,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 156,
+      "name": "Hospital 2F Locker Room - Nail Polish Remover",
+      "vanilla": "Nail Polish Remover",
+      "requirements": "Flashlight",
+      "id": 1397248156,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 157,
+      "name": "Hospital 2F Locker Room - Perfume",
+      "vanilla": "Perfume",
+      "requirements": "Flashlight",
+      "id": 1397248157,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 158,
+      "name": "Hospital 2F M4 - Instant Camera",
+      "vanilla": "Instant Camera",
+      "requirements": "Flashlight",
+      "id": 1397248158,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 159,
+      "name": "Hospital 2F M5 - First-Aid Kit",
+      "vanilla": "First-Aid Kit",
+      "requirements": "Flashlight",
+      "id": 1397248159,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 160,
+      "name": "Hospital 1F C4 - Stairwell Key",
+      "vanilla": "Stairwell Key",
+      "requirements": "Nail Polish Remover",
+      "id": 1397248160,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 161,
+      "name": "Hospital BF - Submachine Gun Bullets",
+      "vanilla": "Submachine Gun Bullets",
+      "requirements": "Stairwell Key AND Flashlight",
+      "id": 1397248161,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 162,
+      "name": "Hospital BF - Submachine Gun",
+      "vanilla": "Submachine Gun",
+      "requirements": "Stairwell Key AND Flashlight",
+      "id": 1397248162,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 163,
+      "name": "Hospital 3F Store Room Fast Travel",
+      "vanilla": "Hospital 3F Store Room Fast Travel",
+      "requirements": "-",
+      "id": 1397248163,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 164,
+      "name": "Hospital 3F Store Room - Stun Gun Battery",
+      "vanilla": "Stun Gun Battery",
+      "requirements": "Flashlight",
+      "id": 1397248164,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 165,
+      "name": "Hospital 3F Store Room - Health Drink 1",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248165,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 166,
+      "name": "Hospital 3F Store Room - Health Drink 2",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248166,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 167,
+      "name": "Hospital RF Roof - Submachine Gun Bullets 1",
+      "vanilla": "Submachine Gun Bullets",
+      "requirements": "-",
+      "id": 1397248167,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 168,
+      "name": "Hospital RF Roof - Submachine Gun Bullets 2",
+      "vanilla": "Submachine Gun Bullets",
+      "requirements": "-",
+      "id": 1397248168,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 169,
+      "name": "Hospital 3F S1 - Health Drink 1",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight AND Instant Camera",
+      "id": 1397248169,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 170,
+      "name": "Hospital 3F S1 - Health Drink 2",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight AND Instant Camera",
+      "id": 1397248170,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 171,
+      "name": "Hospital 3F Hallway - Beef Jerky",
+      "vanilla": "Beef Jerky",
+      "requirements": "Flashlight",
+      "id": 1397248171,
+      "area": 11,
+      "implemented": true
+    },
+    {
+      "index": 172,
+      "name": "Otherworld Hospital 3F S03 Fast Travel",
+      "vanilla": "Room S03 Fast Travel",
+      "requirements": "-",
+      "id": 1397248172,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 173,
+      "name": "Otherworld Hospital 3F S03 - Handgun Bullets 1",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248173,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 174,
+      "name": "Otherworld Hospital 3F S03 - Handgun Bullets 2",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248174,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 175,
+      "name": "Otherworld Hospital B3 Morgue - Cremated Key",
+      "vanilla": "Cremated Key",
+      "requirements": "Flashlight",
+      "id": 1397248175,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 176,
+      "name": "Otherworld Hospital 2F Locker Room - Plastic Bag",
+      "vanilla": "Plastic Bag",
+      "requirements": "Flashlight",
+      "id": 1397248176,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 177,
+      "name": "Otherworld Hospital 2F Locker Room - Health Drink",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248177,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 178,
+      "name": "Otherworld Hospital 3F Exam Room 4 - Plastic Bag (With Blood)",
+      "vanilla": "Plastic Bag (With Blood)",
+      "requirements": "Plastic Bag",
+      "id": 1397248178,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 179,
+      "name": "Otherworld Hospital 1F Exam Room Fast Travel",
+      "vanilla": "Exam Room Fast Travel",
+      "requirements": "-",
+      "id": 1397248179,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 180,
+      "name": "Otherworld Hospital 1F Exam Room - Ampoule",
+      "vanilla": "Ampoule",
+      "requirements": "Flashlight",
+      "id": 1397248180,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 225,
+      "name": "Otherworld Hospital 1F C1 - Birthday Gift 1",
+      "vanilla": "Supply",
+      "requirements": "Cremated Key / Flashlight",
+      "id": 1397248225,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 226,
+      "name": "Otherworld Hospital 1F C1 - Birthday Gift 2",
+      "vanilla": "Supply",
+      "requirements": "Cremated Key / Flashlight",
+      "id": 1397248226,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 181,
+      "name": "Otherworld Hospital 1F C4 Fast Travel",
+      "vanilla": "Room C4 Fast Travel",
+      "requirements": "Cremated Key",
+      "id": 1397248181,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 182,
+      "name": "Leonard",
+      "vanilla": "Leonard",
+      "requirements": "Plastic Bag (With Blood)",
+      "id": 1397248182,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 183,
+      "name": "Otherworld Hospital 1F C4 - Talisman",
+      "vanilla": "Talisman",
+      "requirements": "Leonard",
+      "id": 1397248183,
+      "area": 12,
+      "implemented": true
+    },
+    {
+      "index": 184,
+      "name": "Amusement Park Souvenir Shop - Healing Supply",
+      "vanilla": "First-Aid Kit",
+      "requirements": "Flashlight",
+      "id": 1397248184,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 185,
+      "name": "Amusement Park Souvenir Shop - Beef Jerky",
+      "vanilla": "Beef Jerky",
+      "requirements": "Flashlight",
+      "id": 1397248185,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 186,
+      "name": "Amusement Park Souvenir Shop - Roller Coaster Key",
+      "vanilla": "Roller Coaster Key",
+      "requirements": "Flashlight",
+      "id": 1397248186,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 187,
+      "name": "Amusement Park Souvenir Shop Fast Travel",
+      "vanilla": "Souvenir Shop Fast Travel",
+      "requirements": "-",
+      "id": 1397248187,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 188,
+      "name": "Amusement Park Roller Coaster Control Room - Health Drink 1",
+      "vanilla": "Health Drink",
+      "requirements": "Roller Coaster Key AND Flashlight",
+      "id": 1397248188,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 189,
+      "name": "Amusement Park Roller Coaster Control Room - Health Drink 2",
+      "vanilla": "Health Drink",
+      "requirements": "Roller Coaster Key AND Flashlight",
+      "id": 1397248189,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 190,
+      "name": "Amusement Park Haunted Mansion Fast Travel",
+      "vanilla": "Haunted Mansion Entrance Fast Travel",
+      "requirements": "Roller Coaster Key",
+      "id": 1397248190,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 191,
+      "name": "Amusement Park Theater - Chain",
+      "vanilla": "Chain",
+      "requirements": "-",
+      "id": 1397248191,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 192,
+      "name": "Amusement Park Theater - Health Drink",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248192,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 193,
+      "name": "Amusement Park Theater - Shotgun Shells",
+      "vanilla": "Shotgun Shells",
+      "requirements": "Flashlight",
+      "id": 1397248193,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 194,
+      "name": "Amusement Park Theater - Red Shoe",
+      "vanilla": "Red Shoe",
+      "requirements": "Theater",
+      "id": 1397248194,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 195,
+      "name": "Amusement Park Swing Rocket Control Room - Ammo Supply",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Chain",
+      "id": 1397248195,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 196,
+      "name": "Amusement Park Fortuneteller - Douglas's Notebook",
+      "vanilla": "Douglas's Notebook",
+      "requirements": "Chain",
+      "id": 1397248196,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 197,
+      "name": "Amusement Park Fortuneteller - Doll Head",
+      "vanilla": "Doll Head",
+      "requirements": "Fortuneteller",
+      "id": 1397248197,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 199,
+      "name": "Amusement Park Fortuneteller Fast Travel",
+      "vanilla": "Fortuneteller Fast Travel",
+      "requirements": "-",
+      "id": 1397248199,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 200,
+      "name": "Amusement Park Happy Carousel Stand - Stun Gun Battery 1",
+      "vanilla": "Stun Gun Battery",
+      "requirements": "Red Shoe AND Doll Head",
+      "id": 1397248200,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 201,
+      "name": "Amusement Park Happy Carousel Stand - Stun Gun Battery 2",
+      "vanilla": "Stun Gun Battery",
+      "requirements": "Red Shoe AND Doll Head",
+      "id": 1397248201,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 202,
+      "name": "Amusement Park Happy Carousel Bench - First-Aid Kit",
+      "vanilla": "First-Aid Kit",
+      "requirements": "-",
+      "id": 1397248202,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 203,
+      "name": "Memory of Alessa",
+      "vanilla": "Memory of Alessa",
+      "requirements": "Red Shoe AND Doll Head",
+      "id": 1397248203,
+      "area": 13,
+      "implemented": true
+    },
+    {
+      "index": 204,
+      "name": "Church 1F Podium - \"Eye of the Night\" Tarot Card",
+      "vanilla": "\"Eye of the Night\" Tarot Card",
+      "requirements": "-",
+      "id": 1397248204,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 205,
+      "name": "Church 1F Chapel Fast Travel",
+      "vanilla": "Chapel Fast Travel",
+      "requirements": "-",
+      "id": 1397248205,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 206,
+      "name": "Church 1F - Church Map",
+      "vanilla": "Church Map",
+      "requirements": "-",
+      "id": 1397248206,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 207,
+      "name": "Church 1F Vincent's Room - Cassette Tape",
+      "vanilla": "Cassette Tape",
+      "requirements": "-",
+      "id": 1397248207,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 208,
+      "name": "Church 1F Vincent's Room - Handgun Bullets 1",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248208,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 209,
+      "name": "Church 1F Vincent's Room - Handgun Bullets 2",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248209,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 210,
+      "name": "Church 1F Belfry Fast Travel",
+      "vanilla": "Belfry Fast Travel",
+      "requirements": "-",
+      "id": 1397248210,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 211,
+      "name": "Church 1F Library - \"Moon\" Tarot Card",
+      "vanilla": "\"Moon\" Tarot Card",
+      "requirements": "-",
+      "id": 1397248211,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 212,
+      "name": "Church 1F Library - Book: Otherworld Laws",
+      "vanilla": "Book: Otherworld Laws",
+      "requirements": "-",
+      "id": 1397248212,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 213,
+      "name": "Church BF Alessa's Room - Brass Key",
+      "vanilla": "Brass Key",
+      "requirements": "Alessa's Room",
+      "id": 1397248213,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 214,
+      "name": "Church BF Alessa's Room Fast Travel",
+      "vanilla": "Alessa's Room Fast Travel",
+      "requirements": "-",
+      "id": 1397248214,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 215,
+      "name": "Church BF Alessa's Hospital Bed - \"Fool\" Tarot Card",
+      "vanilla": "\"Fool\" Tarot Card",
+      "requirements": "-",
+      "id": 1397248215,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 216,
+      "name": "Church BF Alessa's Hospital Bed - Handgun Bullets",
+      "vanilla": "Handgun Bullets",
+      "requirements": "-",
+      "id": 1397248216,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 217,
+      "name": "Church BF Alessa's Hospital Bed - Ampoule",
+      "vanilla": "Ampoule",
+      "requirements": "-",
+      "id": 1397248217,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 218,
+      "name": "Church BF Harry's Room - Stun Gun Battery 1",
+      "vanilla": "Stun Gun Battery",
+      "requirements": "-",
+      "id": 1397248218,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 219,
+      "name": "Church BF Harry's Room - Stun Gun Battery 2",
+      "vanilla": "Stun Gun Battery",
+      "requirements": "-",
+      "id": 1397248219,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 220,
+      "name": "Church BF Morgue - \"Hanged Man\" Tarot Card",
+      "vanilla": "\"Hanged Man\" Tarot Card",
+      "requirements": "-",
+      "id": 1397248220,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 221,
+      "name": "Church BF Morgue - Shotgun Shells",
+      "vanilla": "Shotgun Shells",
+      "requirements": "Flashlight",
+      "id": 1397248221,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 222,
+      "name": "Church 1F Claudia's Room - \"High Priestess\" Tarot Card",
+      "vanilla": "\"High Priestess\" Tarot Card",
+      "requirements": "Brass Key",
+      "id": 1397248222,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 223,
+      "name": "God",
+      "vanilla": "God",
+      "requirements": "All 5 Tarot Cards AND Pendant",
+      "id": 1397248223,
+      "area": 14,
+      "implemented": true
+    },
+    {
+      "index": 227,
+      "name": "Subway B4 Supplies - Health Drink 1",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248227,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 228,
+      "name": "Subway B4 Supplies - Health Drink 2",
+      "vanilla": "Health Drink",
+      "requirements": "Flashlight",
+      "id": 1397248228,
+      "area": 3,
+      "implemented": true
+    },
+    {
+      "index": 229,
+      "name": "Subway B4 Supplies - Handgun Bullets",
+      "vanilla": "Handgun Bullets",
+      "requirements": "Flashlight",
+      "id": 1397248229,
+      "area": 3,
+      "implemented": true
+    }
+  ]
+}

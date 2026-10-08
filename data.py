@@ -1,6 +1,6 @@
 GAME_NAME = "Silent Hill 3"
-WORLD_VERSION = "1.0.3"
-CLIENT_VERSION = "1.0.3"
+WORLD_VERSION = "1.0.4"
+CLIENT_VERSION = "1.0.4"
 PROTOCOL_VERSION = 2
 CATALOGUE_VERSION = "2026-10-04-subway-b4"
 
@@ -237,9 +237,9 @@ CHECK_CATALOGUE = (
     {'index': 85, 'name': 'Subway B5 Train - Handgun Bullets 1', 'vanilla': 'Handgun Bullets', 'requirements': '-', 'classification': 'Filler', 'raw_id': 15, 'persist_flag': 974, 'notes': '-'},
     {'index': 86, 'name': 'Subway B5 Train - Handgun Bullets 2', 'vanilla': 'Handgun Bullets', 'requirements': '-', 'classification': 'Filler', 'raw_id': 15, 'persist_flag': 975, 'notes': '-'},
     {'index': 87, 'name': 'Underpass Platform (Unknown Station) Fast Travel', 'vanilla': 'Platform (unknown station) Fast Travel', 'requirements': '-', 'classification': 'Progression', 'raw_id': None, 'persist_flag': None, 'notes': '-'},
-    {'index': 88, 'name': 'Underpass Locker Room - Underpass Map', 'vanilla': 'Underpass Map', 'requirements': '-', 'classification': 'Filler', 'raw_id': None, 'persist_flag': None, 'notes': 'Map.'},
-    {'index': 89, 'name': 'Underpass Locker Room - Maul', 'vanilla': 'Maul', 'requirements': '-', 'classification': 'Useful', 'raw_id': 3, 'persist_flag': None, 'notes': '-'},
-    {'index': 90, 'name': 'Underpass Locker Room - Supply', 'vanilla': 'Supply', 'requirements': '-', 'classification': 'Filler', 'raw_id': None, 'persist_flag': None, 'notes': 'Adaptive slot; observed vanilla First-Aid Kit.'},
+    {'index': 88, 'name': 'Underpass Locker Room - Underpass Map', 'vanilla': 'Underpass Map', 'requirements': 'Flashlight', 'classification': 'Filler', 'raw_id': None, 'persist_flag': None, 'notes': 'Map.'},
+    {'index': 89, 'name': 'Underpass Locker Room - Maul', 'vanilla': 'Maul', 'requirements': 'Flashlight', 'classification': 'Useful', 'raw_id': 3, 'persist_flag': None, 'notes': '-'},
+    {'index': 90, 'name': 'Underpass Locker Room - Supply', 'vanilla': 'Supply', 'requirements': 'Flashlight', 'classification': 'Filler', 'raw_id': None, 'persist_flag': None, 'notes': 'Adaptive slot; observed vanilla First-Aid Kit.'},
     {'index': 91, 'name': 'Underpass Wine Rack - Wine Bottle', 'vanilla': 'Wine Bottle', 'requirements': '-', 'classification': 'Progression', 'raw_id': 51, 'persist_flag': None, 'notes': '-'},
     {'index': 92, 'name': 'Underpass - Handgun Bullets 1', 'vanilla': 'Handgun Bullets', 'requirements': '-', 'classification': 'Filler', 'raw_id': 15, 'persist_flag': None, 'notes': '-'},
     {'index': 93, 'name': 'Underpass - Handgun Bullets 2', 'vanilla': 'Handgun Bullets', 'requirements': '-', 'classification': 'Filler', 'raw_id': 15, 'persist_flag': None, 'notes': '-'},
@@ -290,7 +290,7 @@ CHECK_CATALOGUE = (
     {'index': 138, 'name': 'Otherworld Office 4F Imports Bedroom - Handgun Bullets', 'vanilla': 'Handgun Bullets', 'requirements': 'Oxydol AND Pork Liver AND Matchbook', 'classification': 'Filler', 'raw_id': 15, 'persist_flag': 1035, 'notes': '-'},
     {'index': 139, 'name': 'Otherworld Office 4F Imports Office - Silver Coin', 'vanilla': 'Silver Coin', 'requirements': '-', 'classification': 'Progression', 'raw_id': 60, 'persist_flag': None, 'notes': '-'},
     {'index': 140, 'name': 'Otherworld Office 4F Imports Office - Life Insurance Key', 'vanilla': 'Life Insurance Key', 'requirements': 'Silver Coin', 'classification': 'Progression', 'raw_id': 61, 'persist_flag': None, 'notes': '-'},
-    {'index': 141, 'name': 'Daisy Villa Apartments Fast Travel', 'vanilla': 'Apt. Hall Fast Travel', 'requirements': 'Life Insurance Key AND Flashlight', 'classification': 'Progression', 'raw_id': None, 'persist_flag': None, 'notes': '-'},
+    {'index': 141, 'name': 'Daisy Villa Apartments Fast Travel', 'vanilla': 'Apt. Hall Fast Travel', 'requirements': '-', 'classification': 'Progression', 'raw_id': None, 'persist_flag': None, 'notes': 'Walking access requires Life Insurance Key AND Flashlight; direct save access bypasses the entrance.'},
     {'index': 142, 'name': 'Missionary', 'vanilla': 'Missionary', 'requirements': 'House Key', 'classification': 'Progression', 'raw_id': None, 'persist_flag': None, 'notes': 'Boss. Sequence auto-equips Handgun; test/fix if Handgun absent.'},
     {'index': 143, 'name': "Heather's Room - Stun Gun", 'vanilla': 'Stun Gun', 'requirements': '-', 'classification': 'Useful', 'raw_id': 9, 'persist_flag': None, 'notes': '-'},
     {'index': 144, 'name': "Heather's Room - Stun Gun Battery 1", 'vanilla': 'Stun Gun Battery', 'requirements': '-', 'classification': 'Filler', 'raw_id': 14, 'persist_flag': 1040, 'notes': '-'},

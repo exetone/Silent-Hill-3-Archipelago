@@ -1,0 +1,1804 @@
+{
+  "schema": 2,
+  "logic_version": 4,
+  "source": "travel_logic.py and travel_routes.json",
+  "locations": {
+    "Starting Item - House Key": {
+      "all": [],
+      "any": [],
+      "entry_region": "start",
+      "verified": true
+    },
+    "Starting Item - Pendant": {
+      "all": [],
+      "any": [],
+      "entry_region": "start",
+      "verified": true
+    },
+    "Starting Item - Knife": {
+      "all": [],
+      "any": [],
+      "entry_region": "start",
+      "verified": true
+    },
+    "Mall 1F Boutique - Handgun Bullets 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 1F Boutique - Handgun Bullets 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Supply Room - Beef Jerky": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Storeroom - Health Drink 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Storeroom - Health Drink 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Storeroom - Handgun Bullets": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Bookstore - Handgun Bullets": {
+      "all": [
+        "Key Taken with Tongs"
+      ],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Otherworld Mall 1F First Aid Room - Health Drink 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_mall",
+      "verified": true
+    },
+    "Otherworld Mall 1F First Aid Room - Health Drink 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_mall",
+      "verified": true
+    },
+    "Otherworld Mall 1F First Aid Room - Ampoule": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_mall",
+      "verified": true
+    },
+    "Otherworld Mall 1F Supply Room - Handgun Bullets 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_mall",
+      "verified": true
+    },
+    "Otherworld Mall 1F Supply Room - Handgun Bullets 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_mall",
+      "verified": true
+    },
+    "Otherworld Mall 1F Supply Room - First-Aid Kit": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_mall",
+      "verified": true
+    },
+    "Otherworld Mall 2F Clothes Store - Handgun Bullets 3": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_upper",
+      "verified": true
+    },
+    "Otherworld Mall 2F Clothes Store - Health Drink 1": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_upper",
+      "verified": true
+    },
+    "Otherworld Mall 3F Restaurant - Health Drink 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_upper",
+      "verified": true
+    },
+    "Otherworld Mall 3F Restaurant - First-Aid Kit 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_upper",
+      "verified": true
+    },
+    "Otherworld Mall 2F Caf\u00e9 - Health Drink 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_east",
+      "verified": true
+    },
+    "Otherworld Mall 2F Caf\u00e9 - Health Drink 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_east",
+      "verified": true
+    },
+    "Otherworld Mall 2F Supply Room - Handgun Bullets 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_moths",
+      "verified": true
+    },
+    "Otherworld Mall 2F Supply Room - Handgun Bullets 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_moths",
+      "verified": true
+    },
+    "Otherworld Mall 2F Supply Room - Handgun Bullets 3": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_moths",
+      "verified": true
+    },
+    "Otherworld Mall 2F Supply Room - Beef Jerky": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_moths",
+      "verified": true
+    },
+    "Mall 1F Burger Shop - Handgun Bullets 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall_exit",
+      "verified": true
+    },
+    "Mall 1F Burger Shop - Handgun Bullets 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall_exit",
+      "verified": true
+    },
+    "Mall 1F Burger Shop - Handgun Bullets 3": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall_exit",
+      "verified": true
+    },
+    "Mall 1F Burger Shop - First-Aid Kit": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall_exit",
+      "verified": true
+    },
+    "Mall 1F Burger Shop - Beef Jerky": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall_exit",
+      "verified": true
+    },
+    "Subway B3 Platform 2 Carriage - Shotgun Shells 1": {
+      "all": [
+        "Nutcracker",
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "subway",
+      "verified": true
+    },
+    "Subway B3 Platform 2 Carriage - Shotgun Shells 2": {
+      "all": [
+        "Nutcracker",
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "subway",
+      "verified": true
+    },
+    "Subway B5 Train - First-Aid Kit": {
+      "all": [],
+      "any": [],
+      "entry_region": "train",
+      "verified": true
+    },
+    "Subway B5 Train - Shotgun Shells": {
+      "all": [],
+      "any": [],
+      "entry_region": "train",
+      "verified": true
+    },
+    "Subway B5 Train - Handgun Bullets 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "train",
+      "verified": true
+    },
+    "Subway B5 Train - Handgun Bullets 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "train",
+      "verified": true
+    },
+    "Construction Site 5F - Health Drink": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "construction",
+      "verified": true
+    },
+    "Construction Site 5F - Handgun Bullets": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "construction",
+      "verified": true
+    },
+    "Office 3F Mannequin Room - Handgun Bullets": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "office",
+      "verified": true
+    },
+    "Office 3F Mannequin Room - Shotgun Shells": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "office",
+      "verified": true
+    },
+    "Office 3F Locker Room - Supply 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "office",
+      "verified": true
+    },
+    "Office 3F Locker Room - Supply 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "office",
+      "verified": true
+    },
+    "Office 5F KMN Auto Parts - Health Drink": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "office",
+      "verified": true
+    },
+    "Office 2F ECHO Interiors - Beef Jerky": {
+      "all": [],
+      "any": [],
+      "entry_region": "office_lower",
+      "verified": true
+    },
+    "Otherworld Office 2F Wheelchair Baby - Handgun Bullets": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Otherworld Office 2F Mental Health Clinic - Oxydol": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Otherworld Office 2F Mental Health Clinic - Supply 1": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Otherworld Office 2F Mental Health Clinic - Supply 2": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Otherworld Office 2F Mental Health Clinic - Supply 3": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Otherworld Office 1F Cafe - Shotgun Shells": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Otherworld Office 5F KMN Auto Parts - Handgun Bullets 1": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Otherworld Office 5F KMN Auto Parts - Handgun Bullets 2": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Otherworld Office 4F Imports Bedroom - First-Aid Kit": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_imports",
+      "verified": true
+    },
+    "Otherworld Office 4F Imports Bedroom - Handgun Bullets": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_imports",
+      "verified": true
+    },
+    "Heather's Room - Stun Gun Battery 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "apartment_after",
+      "verified": true
+    },
+    "Heather's Room - Stun Gun Battery 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "apartment_after",
+      "verified": true
+    },
+    "Mall 1F Toilet Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Storeroom Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Otherworld Mall 1F First Aid Room Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_mall",
+      "verified": true
+    },
+    "Otherworld Mall 2F Walkway Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_upper",
+      "verified": true
+    },
+    "Otherworld Mall 2F Sports Shop Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_moths",
+      "verified": true
+    },
+    "Mall 1F Burger Shop Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall_exit",
+      "verified": true
+    },
+    "Subway B2 Stairs Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "subway",
+      "verified": true
+    },
+    "Subway B5 Train Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "train",
+      "verified": true
+    },
+    "Underpass Platform (Unknown Station) Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "platform_entry",
+      "verified": true
+    },
+    "Underpass Underground Passage Office Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "underpass",
+      "verified": true
+    },
+    "Sewer Office Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "sewer",
+      "verified": true
+    },
+    "Construction Site Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "construction",
+      "verified": true
+    },
+    "Office 3F Dance Studio Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "office",
+      "verified": true
+    },
+    "Office 2F 2nd Floor Hall Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "office_lower",
+      "verified": true
+    },
+    "Otherworld Office 2F Mental Health Clinic Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Otherworld Office 5F Gallery Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Daisy Villa Apartments Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "apartments",
+      "verified": true
+    },
+    "Motel Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "town_checks",
+      "verified": true
+    },
+    "Hospital 1F Office Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "hospital_lobby_checks",
+      "verified": true
+    },
+    "Hospital 3F Store Room Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "hospital_store",
+      "verified": true
+    },
+    "Otherworld Hospital 1F Exam Room Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_hospital",
+      "verified": true
+    },
+    "Otherworld Hospital 3F S03 Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_hospital",
+      "verified": true
+    },
+    "Otherworld Hospital 1F C4 Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_c4",
+      "verified": true
+    },
+    "Amusement Park Souvenir Shop Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "park",
+      "verified": true
+    },
+    "Amusement Park Haunted Mansion Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "park_after_coaster",
+      "verified": true
+    },
+    "Amusement Park Fortuneteller Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "park_fortune",
+      "verified": true
+    },
+    "Church 1F Chapel Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "church_entry",
+      "verified": true
+    },
+    "Church 1F Belfry Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "church_entry",
+      "verified": true
+    },
+    "Church BF Alessa's Room Fast Travel": {
+      "all": [],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Mall 1F Alleyway - Unlimited Submachine Gun": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 1F Boutique - Handgun": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Bakery - Tongs": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Storeroom - Key Taken with Tongs": {
+      "all": [
+        "Tongs"
+      ],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Hallway - Beam Saber": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Bakery - Flamethrower": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Bookstore - Shakespeare Anthology 1": {
+      "all": [
+        "Key Taken with Tongs"
+      ],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Bookstore - Shakespeare Anthology 2": {
+      "all": [
+        "Key Taken with Tongs"
+      ],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Bookstore - Shakespeare Anthology 3": {
+      "all": [
+        "Key Taken with Tongs"
+      ],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Bookstore - Shakespeare Anthology 4": {
+      "all": [
+        "Key Taken with Tongs"
+      ],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Bookstore - Shakespeare Anthology 5": {
+      "all": [
+        "Key Taken with Tongs"
+      ],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Mall 2F Elevator - Radio": {
+      "all": [
+        "Shakespeare Anthology 1",
+        "Shakespeare Anthology 2",
+        "Shakespeare Anthology 3",
+        "Shakespeare Anthology 4",
+        "Shakespeare Anthology 5"
+      ],
+      "any": [],
+      "entry_region": "mall_elevator",
+      "verified": true
+    },
+    "Otherworld Mall 1F Supply Room - Flashlight": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_mall",
+      "verified": true
+    },
+    "Otherworld Mall 1F Ladies' Room - Bleach": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_mall",
+      "verified": true
+    },
+    "Otherworld Mall 1F Boutique - Hanger": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_mall",
+      "verified": true
+    },
+    "Otherworld Mall 1F Boutique - Bulletproof Vest": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_mall",
+      "verified": true
+    },
+    "Otherworld Mall 2F Jewellery Store - Walnut": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_upper",
+      "verified": true
+    },
+    "Otherworld Mall 3F Restaurant - Cooked Key": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_upper",
+      "verified": true
+    },
+    "Otherworld Mall 2F Caf\u00e9 - Steel Pipe": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_east",
+      "verified": true
+    },
+    "Otherworld Mall 2F Bakery - Detergent": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_east",
+      "verified": true
+    },
+    "Otherworld Mall 2F Sports Shop - Moonstone": {
+      "all": [
+        "Walnut"
+      ],
+      "any": [],
+      "entry_region": "ow_moths",
+      "verified": true
+    },
+    "Mall 1F Hallway - Shopping Mall Map": {
+      "all": [],
+      "any": [],
+      "entry_region": "mall",
+      "verified": true
+    },
+    "Split Worm": {
+      "all": [
+        "Moonstone",
+        "A boss weapon or Heather Beam + Transform Costume"
+      ],
+      "any": [],
+      "entry_region": "ow_boss",
+      "verified": true
+    },
+    "Missionary": {
+      "all": [
+        "House Key",
+        "A boss weapon or Heather Beam + Transform Costume"
+      ],
+      "any": [],
+      "entry_region": "apartments",
+      "verified": true
+    },
+    "Leonard": {
+      "all": [
+        "Plastic Bag (With Blood)",
+        "A boss weapon or Heather Beam + Transform Costume"
+      ],
+      "any": [],
+      "entry_region": "ow_c4",
+      "verified": true
+    },
+    "Memory of Alessa": {
+      "all": [
+        "A boss weapon or Heather Beam + Transform Costume"
+      ],
+      "any": [],
+      "entry_region": "park_carousel",
+      "verified": true
+    },
+    "God": {
+      "all": [
+        "Pendant",
+        "\"Eye of the Night\" Tarot Card",
+        "\"Moon\" Tarot Card",
+        "\"Fool\" Tarot Card",
+        "\"Hanged Man\" Tarot Card",
+        "\"High Priestess\" Tarot Card",
+        "A boss weapon or Heather Beam + Transform Costume"
+      ],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Otherworld Hospital 1F C4 - Talisman": {
+      "all": [
+        "Plastic Bag (With Blood)",
+        "A boss weapon or Heather Beam + Transform Costume"
+      ],
+      "any": [],
+      "entry_region": "ow_c4",
+      "verified": true
+    },
+    "Subway B1 - Subway Map": {
+      "all": [],
+      "any": [],
+      "entry_region": "subway",
+      "verified": true
+    },
+    "Subway B3 Platform 2 Carriage - Shotgun": {
+      "all": [
+        "Nutcracker"
+      ],
+      "any": [],
+      "entry_region": "subway",
+      "verified": true
+    },
+    "Underpass Locker Room - Underpass Map": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "underpass",
+      "verified": true
+    },
+    "Underpass Locker Room - Maul": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "underpass",
+      "verified": true
+    },
+    "Underpass Underground Passage Office - Oil-Filled Bottle": {
+      "all": [
+        "Wine Bottle"
+      ],
+      "any": [],
+      "entry_region": "underpass",
+      "verified": true
+    },
+    "Sewer Fairy - Gold Pipe": {
+      "all": [
+        "Dryer",
+        "Steel Pipe"
+      ],
+      "any": [],
+      "entry_region": "sewer",
+      "verified": true
+    },
+    "Sewer Fairy - Silver Pipe": {
+      "all": [
+        "Dryer",
+        "Steel Pipe"
+      ],
+      "any": [],
+      "entry_region": "sewer",
+      "verified": true
+    },
+    "Construction Site 5F Hidden Wall - Silencer": {
+      "all": [
+        "Flashlight",
+        "Wall-breaking weapon"
+      ],
+      "any": [],
+      "entry_region": "construction",
+      "verified": true
+    },
+    "Office 5F Art Storage - Katana": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "office",
+      "verified": true
+    },
+    "Office 3F Dance Studio - Office Building Map": {
+      "all": [],
+      "any": [],
+      "entry_region": "office",
+      "verified": true
+    },
+    "Otherworld Office 5F KMN Auto Parts - Matchbook": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Otherworld Office 1F Cafe - Pork Liver": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_office",
+      "verified": true
+    },
+    "Otherworld Office 4F Imports Office - Silver Coin": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_imports",
+      "verified": true
+    },
+    "Otherworld Office 4F Imports Office - Life Insurance Key": {
+      "all": [
+        "Silver Coin"
+      ],
+      "any": [],
+      "entry_region": "ow_imports",
+      "verified": true
+    },
+    "Heather's Room - Stun Gun": {
+      "all": [],
+      "any": [],
+      "entry_region": "apartment_after",
+      "verified": true
+    },
+    "Daisy Villa Apartments - Dad's Notebook": {
+      "all": [],
+      "any": [],
+      "entry_region": "apartment_after",
+      "verified": true
+    },
+    "Daisy Villa Apartments - Silent Hill Map": {
+      "all": [],
+      "any": [],
+      "entry_region": "apartment_after",
+      "verified": true
+    },
+    "Hospital 1F Office - Hospital Map": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_lobby_checks",
+      "verified": true
+    },
+    "Hospital 1F Lounge Fridge - Health Drink": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_lobby_checks",
+      "verified": true
+    },
+    "Hospital 2F Locker Room - Nail Polish Remover": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_pre",
+      "verified": true
+    },
+    "Hospital 2F Locker Room - Perfume": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_pre",
+      "verified": true
+    },
+    "Hospital 2F M4 - Instant Camera": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_pre",
+      "verified": true
+    },
+    "Hospital 1F C4 - Stairwell Key": {
+      "all": [
+        "Nail Polish Remover"
+      ],
+      "any": [],
+      "entry_region": "hospital_pre",
+      "verified": true
+    },
+    "Hospital BF - Submachine Gun": {
+      "all": [
+        "Stairwell Key",
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_upper",
+      "verified": true
+    },
+    "Subway B4 - Nutcracker": {
+      "all": [],
+      "any": [],
+      "entry_region": "subway",
+      "verified": true
+    },
+    "Underpass Wine Rack - Wine Bottle": {
+      "all": [],
+      "any": [],
+      "entry_region": "underpass",
+      "verified": true
+    },
+    "Sewer Dump - Dryer": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "sewer",
+      "verified": true
+    },
+    "Office 5F KMN Auto Parts - Jack": {
+      "all": [],
+      "any": [],
+      "entry_region": "office",
+      "verified": true
+    },
+    "Office 5F Gallery of Fine Arts Hallway - Screwdriver": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "office",
+      "verified": true
+    },
+    "Office 3F Dance Studio - Rope": {
+      "all": [
+        "Screwdriver"
+      ],
+      "any": [],
+      "entry_region": "office",
+      "verified": true
+    },
+    "Church BF Morgue - \"Hanged Man\" Tarot Card": {
+      "all": [],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Church 1F Claudia's Room - \"High Priestess\" Tarot Card": {
+      "all": [
+        "Brass Key"
+      ],
+      "any": [],
+      "entry_region": "church_entry",
+      "verified": true
+    },
+    "Church 1F - Church Map": {
+      "all": [],
+      "any": [],
+      "entry_region": "church_entry",
+      "verified": true
+    },
+    "Subway B5 Platform 4 - Supply": {
+      "all": [],
+      "any": [],
+      "entry_region": "subway",
+      "verified": true
+    },
+    "Subway B5 Platform 3 - Supply": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "subway",
+      "verified": true
+    },
+    "Underpass Wine Rack - Beef Jerky": {
+      "all": [],
+      "any": [],
+      "entry_region": "underpass",
+      "verified": true
+    },
+    "Underpass Dead End - Shotgun Shells": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "underpass",
+      "verified": true
+    },
+    "Underpass Underground Passage Office - Health Drink 1": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "underpass",
+      "verified": true
+    },
+    "Underpass Underground Passage Office - Health Drink 2": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "underpass",
+      "verified": true
+    },
+    "Underpass Underground Passage Office - Handgun Bullets": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "underpass",
+      "verified": true
+    },
+    "Underpass Underground Passage Office - Shotgun Shells": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "underpass",
+      "verified": true
+    },
+    "Sewer Dump - Ampoule": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "sewer",
+      "verified": true
+    },
+    "Sewer Office - Health Drink": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "sewer",
+      "verified": true
+    },
+    "Heaven's Night - Shotgun Shells": {
+      "all": [],
+      "any": [],
+      "entry_region": "town_checks",
+      "verified": true
+    },
+    "Heaven's Night - First-Aid Kit": {
+      "all": [],
+      "any": [],
+      "entry_region": "town_checks",
+      "verified": true
+    },
+    "Heaven's Night - Beef Jerky": {
+      "all": [],
+      "any": [],
+      "entry_region": "town_checks",
+      "verified": true
+    },
+    "Hospital 1F Office - Health Drink": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_lobby_checks",
+      "verified": true
+    },
+    "Hospital 2F M5 - First-Aid Kit": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_pre",
+      "verified": true
+    },
+    "Hospital BF - Submachine Gun Bullets": {
+      "all": [
+        "Stairwell Key",
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_upper",
+      "verified": true
+    },
+    "Hospital RF Roof - Submachine Gun Bullets 1": {
+      "all": [
+        "Stairwell Key"
+      ],
+      "any": [],
+      "entry_region": "hospital_upper",
+      "verified": true
+    },
+    "Hospital RF Roof - Submachine Gun Bullets 2": {
+      "all": [
+        "Stairwell Key"
+      ],
+      "any": [],
+      "entry_region": "hospital_upper",
+      "verified": true
+    },
+    "Hospital 3F Store Room - Stun Gun Battery": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_upper",
+      "verified": true
+    },
+    "Hospital 3F Store Room - Health Drink 1": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_upper",
+      "verified": true
+    },
+    "Hospital 3F Store Room - Health Drink 2": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_upper",
+      "verified": true
+    },
+    "Hospital 3F S1 - Health Drink 1": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_patient",
+      "verified": true
+    },
+    "Hospital 3F S1 - Health Drink 2": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_patient",
+      "verified": true
+    },
+    "Hospital 3F Hallway - Beef Jerky": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "hospital_patient",
+      "verified": true
+    },
+    "Otherworld Hospital 3F S03 - Handgun Bullets 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_hospital",
+      "verified": true
+    },
+    "Otherworld Hospital 3F S03 - Handgun Bullets 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "ow_hospital",
+      "verified": true
+    },
+    "Otherworld Hospital 2F Locker Room - Health Drink": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_hospital",
+      "verified": true
+    },
+    "Otherworld Hospital 1F Exam Room - Ampoule": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_hospital",
+      "verified": true
+    },
+    "Otherworld Hospital 1F C1 - Birthday Gift 1": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_patient",
+      "verified": true
+    },
+    "Otherworld Hospital B3 Morgue - Cremated Key": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_hospital",
+      "verified": true
+    },
+    "Otherworld Hospital 2F Locker Room - Plastic Bag": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_hospital",
+      "verified": true
+    },
+    "Otherworld Hospital 3F Exam Room 4 - Plastic Bag (With Blood)": {
+      "all": [
+        "Plastic Bag"
+      ],
+      "any": [],
+      "entry_region": "ow_hospital",
+      "verified": true
+    },
+    "Otherworld Hospital 1F C1 - Birthday Gift 2": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "ow_patient",
+      "verified": true
+    },
+    "Amusement Park Roller Coaster Control Room - Health Drink 1": {
+      "all": [
+        "Roller Coaster Key",
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "park",
+      "verified": true
+    },
+    "Amusement Park Roller Coaster Control Room - Health Drink 2": {
+      "all": [
+        "Roller Coaster Key",
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "park",
+      "verified": true
+    },
+    "Amusement Park Theater - Health Drink": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "park_theatre",
+      "verified": true
+    },
+    "Amusement Park Theater - Shotgun Shells": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "park_theatre",
+      "verified": true
+    },
+    "Amusement Park Happy Carousel Stand - Stun Gun Battery 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "park_carousel",
+      "verified": true
+    },
+    "Amusement Park Happy Carousel Stand - Stun Gun Battery 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "park_carousel",
+      "verified": true
+    },
+    "Amusement Park Happy Carousel Bench - First-Aid Kit": {
+      "all": [],
+      "any": [],
+      "entry_region": "park_carousel",
+      "verified": true
+    },
+    "Church BF Harry's Room - Stun Gun Battery 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Church BF Harry's Room - Stun Gun Battery 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Church BF Morgue - Shotgun Shells": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Church BF Alessa's Hospital Bed - Handgun Bullets": {
+      "all": [],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Church BF Alessa's Hospital Bed - Ampoule": {
+      "all": [],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Amusement Park Souvenir Shop - Roller Coaster Key": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "park",
+      "verified": true
+    },
+    "Amusement Park Theater - Red Shoe": {
+      "all": [],
+      "any": [],
+      "entry_region": "park_theatre",
+      "verified": true
+    },
+    "Amusement Park Theater - Chain": {
+      "all": [],
+      "any": [],
+      "entry_region": "park_theatre",
+      "verified": true
+    },
+    "Amusement Park Fortuneteller - Douglas's Notebook": {
+      "all": [],
+      "any": [],
+      "entry_region": "park_fortune",
+      "verified": true
+    },
+    "Amusement Park Fortuneteller - Doll Head": {
+      "all": [],
+      "any": [],
+      "entry_region": "park_fortune",
+      "verified": true
+    },
+    "Church 1F Podium - \"Eye of the Night\" Tarot Card": {
+      "all": [],
+      "any": [],
+      "entry_region": "church_entry",
+      "verified": true
+    },
+    "Church 1F Library - \"Moon\" Tarot Card": {
+      "all": [],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Church 1F Library - Book: Otherworld Laws": {
+      "all": [],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Church BF Alessa's Hospital Bed - \"Fool\" Tarot Card": {
+      "all": [],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Church BF Alessa's Room - Brass Key": {
+      "all": [],
+      "any": [],
+      "entry_region": "church",
+      "verified": true
+    },
+    "Amusement Park Souvenir Shop - Beef Jerky": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "park",
+      "verified": true
+    },
+    "Amusement Park Souvenir Shop - Healing Supply": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "park",
+      "verified": true
+    },
+    "Amusement Park Swing Rocket Control Room - Ammo Supply": {
+      "all": [],
+      "any": [],
+      "entry_region": "park_theatre",
+      "verified": true
+    },
+    "Church 1F Vincent's Room - Handgun Bullets 1": {
+      "all": [],
+      "any": [],
+      "entry_region": "church_entry",
+      "verified": true
+    },
+    "Church 1F Vincent's Room - Handgun Bullets 2": {
+      "all": [],
+      "any": [],
+      "entry_region": "church_entry",
+      "verified": true
+    },
+    "Church 1F Vincent's Room - Cassette Tape": {
+      "all": [],
+      "any": [],
+      "entry_region": "church_entry",
+      "verified": true
+    },
+    "Subway B4 Supplies - Health Drink 1": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "subway",
+      "verified": true
+    },
+    "Subway B4 Supplies - Health Drink 2": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "subway",
+      "verified": true
+    },
+    "Subway B4 Supplies - Handgun Bullets": {
+      "all": [
+        "Flashlight"
+      ],
+      "any": [],
+      "entry_region": "subway",
+      "verified": true
+    }
+  },
+  "edges": [
+    [
+      "mall",
+      "mall_elevator",
+      [
+        "Key Taken with Tongs",
+        "Shakespeare Anthology 1",
+        "Shakespeare Anthology 2",
+        "Shakespeare Anthology 3",
+        "Shakespeare Anthology 4",
+        "Shakespeare Anthology 5"
+      ]
+    ],
+    [
+      "mall_elevator",
+      "ow_mall",
+      []
+    ],
+    [
+      "ow_mall",
+      "ow_upper",
+      [
+        "Hanger"
+      ]
+    ],
+    [
+      "ow_upper",
+      "ow_mall",
+      []
+    ],
+    [
+      "ow_upper",
+      "ow_east",
+      [
+        "Cooked Key"
+      ]
+    ],
+    [
+      "ow_east",
+      "ow_moths",
+      [
+        "Bleach",
+        "Detergent"
+      ]
+    ],
+    [
+      "ow_moths",
+      "ow_east",
+      []
+    ],
+    [
+      "ow_upper",
+      "ow_boss",
+      [
+        "Moonstone"
+      ]
+    ],
+    [
+      "ow_moths",
+      "ow_boss",
+      [
+        "Moonstone"
+      ]
+    ],
+    [
+      "ow_boss",
+      "mall_exit",
+      [
+        "A boss weapon or Heather Beam + Transform Costume"
+      ]
+    ],
+    [
+      "mall_exit",
+      "subway",
+      []
+    ],
+    [
+      "subway",
+      "train",
+      [
+        "Nutcracker"
+      ]
+    ],
+    [
+      "train",
+      "platform_entry",
+      []
+    ],
+    [
+      "platform_entry",
+      "underpass",
+      []
+    ],
+    [
+      "underpass",
+      "sewer",
+      [
+        "Oil-Filled Bottle"
+      ]
+    ],
+    [
+      "sewer",
+      "underpass",
+      []
+    ],
+    [
+      "sewer",
+      "construction",
+      [
+        "Dryer"
+      ]
+    ],
+    [
+      "construction",
+      "office",
+      []
+    ],
+    [
+      "office",
+      "office_lower",
+      [
+        "Rope",
+        "Jack"
+      ]
+    ],
+    [
+      "office_lower",
+      "ow_office",
+      []
+    ],
+    [
+      "ow_office",
+      "ow_imports",
+      [
+        "Oxydol",
+        "Pork Liver",
+        "Matchbook"
+      ]
+    ],
+    [
+      "ow_imports",
+      "ow_office",
+      []
+    ],
+    [
+      "ow_office",
+      "apartments",
+      [
+        "Life Insurance Key",
+        "Flashlight"
+      ]
+    ],
+    [
+      "apartments",
+      "apartment_after",
+      [
+        "House Key",
+        "A boss weapon or Heather Beam + Transform Costume",
+        "Missionary defeated"
+      ]
+    ],
+    [
+      "apartment_after",
+      "town",
+      []
+    ],
+    [
+      "town",
+      "town_checks",
+      []
+    ],
+    [
+      "town",
+      "hospital_lobby",
+      []
+    ],
+    [
+      "hospital_lobby",
+      "town",
+      []
+    ],
+    [
+      "hospital_lobby",
+      "hospital_lobby_checks",
+      []
+    ],
+    [
+      "hospital_lobby",
+      "hospital_pre",
+      [
+        "Before Leonard closes the 1F stairs and elevator"
+      ]
+    ],
+    [
+      "hospital_pre",
+      "hospital_lobby",
+      []
+    ],
+    [
+      "hospital_pre",
+      "hospital_upper",
+      [
+        "Stairwell Key"
+      ]
+    ],
+    [
+      "hospital_upper",
+      "hospital_store",
+      []
+    ],
+    [
+      "hospital_store",
+      "hospital_upper",
+      [
+        "Flashlight"
+      ]
+    ],
+    [
+      "hospital_upper",
+      "hospital_pre",
+      [
+        "Flashlight"
+      ]
+    ],
+    [
+      "hospital_upper",
+      "hospital_patient",
+      [
+        "Flashlight",
+        "Stairwell Key",
+        "Instant Camera"
+      ]
+    ],
+    [
+      "hospital_patient",
+      "hospital_upper",
+      []
+    ],
+    [
+      "hospital_patient",
+      "ow_hospital",
+      []
+    ],
+    [
+      "ow_hospital",
+      "ow_patient",
+      [
+        "Cremated Key"
+      ]
+    ],
+    [
+      "ow_patient",
+      "ow_hospital",
+      []
+    ],
+    [
+      "ow_patient",
+      "ow_c4",
+      []
+    ],
+    [
+      "ow_c4",
+      "hospital_after",
+      [
+        "Plastic Bag (With Blood)",
+        "A boss weapon or Heather Beam + Transform Costume",
+        "Leonard defeated"
+      ]
+    ],
+    [
+      "hospital_after",
+      "hospital_lobby_checks",
+      []
+    ],
+    [
+      "hospital_after",
+      "town_checks",
+      []
+    ],
+    [
+      "hospital_after",
+      "park",
+      []
+    ],
+    [
+      "park",
+      "park_after_coaster",
+      [
+        "Roller Coaster Key"
+      ]
+    ],
+    [
+      "park_after_coaster",
+      "park_theatre",
+      []
+    ],
+    [
+      "park_theatre",
+      "park_fortune",
+      [
+        "Chain"
+      ]
+    ],
+    [
+      "park_fortune",
+      "park_carousel",
+      [
+        "Red Shoe",
+        "Doll Head"
+      ]
+    ],
+    [
+      "park_carousel",
+      "church_entry",
+      [
+        "A boss weapon or Heather Beam + Transform Costume"
+      ]
+    ],
+    [
+      "church_entry",
+      "church",
+      []
+    ]
+  ]
+}
